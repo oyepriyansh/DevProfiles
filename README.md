@@ -24,7 +24,7 @@ A place to list and shocase your developer skills and profile
             </div>
         </div>
 ```
-> Note: Do not add your profile above contributors who have contributed before you.
+> Note: Do not add your profile in top.
 3. Change/Replace the placeholders with your image and profiles urls
     - [IMAGE-URL] with your image URL
     - [YOUR_NAME] with your name

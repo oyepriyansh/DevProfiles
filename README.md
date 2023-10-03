@@ -2,7 +2,7 @@
 A place to list and shocase your developer skills and profile
 
 
-# Contribute
+## Contribute
 
 1. Fork this Repository
 2. add following code to HTML `index.html` just before `<!--Profiles-->` comment
@@ -35,6 +35,12 @@ A place to list and shocase your developer skills and profile
 
 6. Wait for Merge 
 
-# Thank You
+
+##  Need Help?
+Join our discord server for any kind of help. <br>
+
+<a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
+
+## Thank You
 Thank you to every contributor of this repository <br>
 Show some love by giving a ⭐ to this repository!

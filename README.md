@@ -5,6 +5,7 @@ A place to list and shocase your developer skills and profile
 ## Contribute
 
 1. Fork this Repository
+
 2. add following code to HTML `index.html` just before `<!--Profiles-->` comment
 
 ```html
@@ -23,6 +24,7 @@ A place to list and shocase your developer skills and profile
             </div>
         </div>
 ```
+> Note: Do not add your profile above contributors who have contributed before you.
 3. Change/Replace the placeholders with your image and profiles urls
     - [IMAGE-URL] with your image URL
     - [YOUR_NAME] with your name
@@ -33,8 +35,7 @@ A place to list and shocase your developer skills and profile
 
 5. Create a Pull Request
 
-6. Wait for Merge 
-
+6. Wait for Merge
 
 ##  Need Help?
 Join our discord server for any kind of help. <br>

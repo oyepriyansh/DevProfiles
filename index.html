@@ -6,60 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Profiles</title>
     <link rel="shortcut icon" href="https://oyepriyansh.pages.dev/i/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        h1, h2 {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .techy-border {
+            border: 1px solid red;
+        }
+
+        .card {
+            transform: scale(0.95);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1);
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+        }
+
+        .badge-outline {
+            border: 1px solid red;
+            color: red;
+            transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+
+        .badge-outline:hover {
+            background: red;
+            color: white;
+        }
+
+    </style>
 </head>
-<body>
-    <h1>Dev Profiles</h1>
 
-    <button class="add"  onclick='window.open("https://github.com/oyepriyansh/DevProfiles","_blank")'">Add your Profile &nbsp; <i class="fa-sharp fa-solid fa-user-plus"></i> </button>
-    
-    <div class="line"><br></div>
+<body class="bg-gray-900 text-gray-100">
 
-    <div class="search">
-        <input type="text" id="searchInput" placeholder="Search by name or skill...">
-    </div>
+    <div class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-extrabold mb-8 text-center text-blue-500 animate__animated animate__fadeIn">Dev Profiles</h1>
 
-    <div class="container">
-        <!--Profiles-->
-        
-        <div class="profile">
-            <div class="pfp"><img src="https://github.com/oyepriyansh.png" alt="User Image"></div>
-            <h3 class="name">Priyansh Prajapat</h3>
-            <div class="skills">
-                <span class="skill">Javascript</span>
-                <span class="skill">NodeJS</span>
-                <span class="skill">Python</span>
-            </div>
-            <div class="social">
-                <a href="https://github.com/oyepriyansh" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/oyepriyansh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://linkedin.com/in/oyepriyansh" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
+        <div class="flex justify-center mb-6 animate__animated animate__fadeIn animate__delay-1s">
+            <button onclick='window.open("https://github.com/oyepriyansh/DevProfiles","_blank")' class="btn btn-secondary btn-outline techy-border">
+                Add your Profile &nbsp; <i class="fa-sharp fa-solid fa-user-plus text-red-500"></i>
+            </button>
         </div>
 
-        <div class="profile">
-            <div class="pfp"><img src="https://github.com/hollermay.png" alt="User Image"></div>
-            <h3 class="name">Udayan Sharma</h3>
-            <div class="skills">
-                <span class="skill">Javascript</span>
-                <span class="skill">Python</span>
-                <span class="skill">AI/ML</span>
-                <span class="skill">HTML5/CSS</span>
-                <span class="skill">Graphic Designing</span>
-            </div>
-            <div class="social">
-                <a href="https://github.com/hollermay" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://twitter.com/UdayanShar29025" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/udayan-s-7a8600246/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
+        <div class="mb-6 animate__animated animate__fadeIn animate__delay-2s">
+            <input type="text" id="searchInput" placeholder="Search by name or skill..." class="w-full p-3 rounded techy-border focus:outline-none focus:border-blue-500 bg-gray-800 text-white">
         </div>
 
-        
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
-        <!--Profiles-->
+            <!--Profile-->
+            <div class="card bordered bg-gray-800 transition techy-border max-w-xs mx-auto animate__animated animate__fadeIn animate__delay-3s">
+                <figure>
+                    <img src="https://github.com/oyepriyansh.png">
+                </figure>
+                <div class="card-body">
+                    <h2 class="text-2xl text-red-400">Priyansh Prajapat</h2>
+                    <div class="mt-4 mb-4">
+                        <span class="badge badge-outline">Javascript</span>
+                        <span class="badge badge-outline">NodeJS</span>
+                        <span class="badge badge-outline">Python</span>
+                    </div>
+                    <div class="justify-start card-actions">
+                        <a href="https://github.com/oyepriyansh" target="_blank" class="btn btn-xs btn-circle btn-accent text-white border-white mr-2">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://x.com/oyepriyansh" target="_blank" class="btn btn-xs btn-circle btn-accent text-white border-white mr-2">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/oyepriyansh" target="_blank" class="btn btn-xs btn-circle btn-accent text-white border-white">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Profile-->
+            <div class="card bordered bg-gray-800 transition techy-border max-w-xs mx-auto animate__animated animate__fadeIn animate__delay-4s">
+                <figure>
+                    <img src="https://github.com/hollermay.png">
+                </figure>
+                <div class="card-body">
+                    <h2 class="text-2xl text-red-400">Udayan Sharma</h2>
+                    <div class="mt-4 mb-4">
+                        <span class="badge badge-outline">Javascript</span>
+                        <span class="badge badge-outline">Python</span>
+                        <span class="badge badge-outline">AI/ML</span>
+                        <span class="badge badge-outline">HTML5/CSS</span>
+                        <span class="badge badge-outline">Graphic Designing</span>
+                    </div>
+                    <div class="justify-start card-actions">
+                        <a href="https://github.com/hollermay" target="_blank" class="btn btn-xs btn-circle btn-accent text-white border-white mr-2">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/UdayanShar29025" target="_blank" class="btn btn-xs btn-circle btn-accent text-white border-white mr-2">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/udayan-s-7a8600246/" target="_blank" class="btn btn-xs btn-circle btn-accent text-white border-white">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-    <script src="script.js"></script>
+
 </body>
 
 </html>

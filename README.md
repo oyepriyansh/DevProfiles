@@ -7,7 +7,9 @@ and join us to showcase your developer profile.
 
 
 #### 🗣How to communicate to us ?
-Join our Discord server for any kind of help. 
+
+Join our Discord server for any kind of help.
+
 <a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
 
 #### Thank You

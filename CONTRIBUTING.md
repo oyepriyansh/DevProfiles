@@ -41,14 +41,19 @@ Don't add your profile at the beginning or end of the file. Put it anywhere in b
 
 3. Change or replace the placeholders with your image and profile urls.
 [IMAGE-URL] with your image URL.
+
 [YOUR_NAME] with your name.
-[SKILL-1], [SKILL-2], [SKILL-3] with your skills
-[YOUR GITHUB URL], [YOUR X/TWITTER URL], and [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL respectively.
+
+[SKILL-1], [SKILL-2], [SKILL-3] with your skills.
+
+[YOUR GITHUB URL], [YOUR X/TWITTER URL], 
+
+and [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL respectively.
 
 
-4. Commit your changes.
-5. Create a pull request with a message.
-6. Wait for Merge .
+5. Commit your changes.
+6. Create a pull request with a message.
+7. Wait for Merge .
 
 And there you go !!🥳
 

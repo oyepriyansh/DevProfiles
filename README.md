@@ -24,7 +24,10 @@ A place to list and shocase your developer skills and profile
             </div>
         </div>
 ```
-> Note: Do not add your profile in top.
+
+> [!NOTE]  
+> Don't add your profile at the beginning or end of the file. Put it anywhere in between.
+
 3. Change/Replace the placeholders with your image and profiles urls
     - [IMAGE-URL] with your image URL
     - [YOUR_NAME] with your name

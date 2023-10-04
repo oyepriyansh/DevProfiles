@@ -70,6 +70,11 @@ h1 {
 
 .skills {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 7px;
 }
 
 .skill {
@@ -82,7 +87,10 @@ h1 {
 }
 
 .social {
-    margin-top: 10px;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .social a {

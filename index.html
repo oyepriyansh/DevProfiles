@@ -15,17 +15,24 @@
 </head>
 
 <body>
-    <h1>Dev Profiles</h1>
+    <div class="header">
+        <h1 class="col">Dev Profiles</h1>
 
-    <button class="add"
-        onclick='window.open("https://github.com/oyepriyansh/DevProfiles","_blank")'">Add your Profile &nbsp; <i class="
-        fa-sharp fa-solid fa-user-plus"></i> </button>
-
-    <div class="line"><br></div>
-
+        <div class="wrapper-toggle-button col">
+            <input type="checkbox" id="input-toggle-button">
+            <label for="input-toggle-button" class="toggle-mode">
+            <div class="mode-toggle"></div>
+            </label>
+        </div>
+    </div>
+    
     <div class="search">
         <input type="text" id="searchInput" placeholder="Search by name or skill...">
     </div>
+
+    <button class="add col"
+        onclick='window.open("https://github.com/oyepriyansh/DevProfiles","_blank")'"><span>Add your Profile &nbsp;</span><i class="
+        fa-sharp fa-solid fa-user-plus"></i> </button>
 
     <div class="container">
         <!--Profiles-->
@@ -59,6 +66,26 @@
             </div>
             <div class="social">
                 <a href="https://github.com/OpAayush" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+
+        <div class="profile">
+            <div class="pfp"><img src="https://avatars.githubusercontent.com/u/97402083?v=4" alt="Dheeraj Sarana Image"></div>
+            <h3 class="name">Dheeraj Sarana</h3>
+            <div class="skills">
+                <span class="skill">JAVA</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">BOOTSTRAP</span>
+                <span class="skill">JAVASCRIPT</span>
+                <span class="skill">AJAX</span>
+
+            </div>
+            <div class="social">
+                <a href="https://github.com/SaranaDheeraj" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/DheerajSarana" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sarana-dheeraj-990594228/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
         
@@ -881,7 +908,7 @@
               <a href="https://github.com/Srikar-C" target="_blank"><i class="fa-brands fa-github"></i></a>
           </div>
       </div>
-         <div class="profile">
+ <div class="profile">
             <div class="pfp"><img src="https://avatars.githubusercontent.com/u/93152436?s=400&u=b6a6dfa8147ad57df4d20a598cd269e5c7d5f266&v=4" alt="User Image"></div>
             <h3 class="name">Harshal Kahar</h3>
             <div class="skills">
@@ -896,6 +923,25 @@
                 <a href="https://www.linkedin.com/in/harshal-kahar-4115a321b" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
+
+
+      <div class="profile">
+        <div class="pfp"><img src="https://avatars.githubusercontent.com/u/123192035?v=4" alt="User Image"></div>
+        <h3 class="name">Dibya Jyoti Dutta</h3>
+        <div class="skills">
+            <span class="skill">NodeJS</span>
+            <span class="skill">ExpressJS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">C++</span>
+            <span class="skill">MongoDB</span>
+        </div>
+        <div class="social">
+            <a href="https://github.com/Dibya112" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dibya-jyoti-dutta-87378a240/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+
     </div>
     
     <script src="script.js"></script>

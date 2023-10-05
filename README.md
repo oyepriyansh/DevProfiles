@@ -1,12 +1,12 @@
 # DevProfiles
-A place to list and shocase your developer skills and profile
+A place to list and showcase your developer skills and profile
 
 
 ## Contribute
 
 1. Fork this Repository
 
-2. add following code to HTML `index.html` inside the `<div class="container">` `</div>`
+2. add the following code to HTML `index.html` inside the `<div class="container">` `</div>`
 
 ```html
         <div class="profile">
@@ -28,11 +28,11 @@ A place to list and shocase your developer skills and profile
 > [!NOTE]  
 > Don't add your profile at the beginning or end of the file. Put it anywhere in between.
 
-3. Change/Replace the placeholders with your image and profiles urls
+3. Change/Replace the placeholders with your image and profile URLs
     - [IMAGE-URL] with your image URL
     - [YOUR_NAME] with your name
     - [SKILL-1], [SKILL-2], [SKILL-3] with your skills
-    - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL repectively.
+    - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your GitHub, X/Twitter & LinkedIn profile URL respectively.
 
 4. Commit your changes.
 

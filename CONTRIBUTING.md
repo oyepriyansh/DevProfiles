@@ -24,7 +24,7 @@ A fork is a local copy of the repository that is on your GitHub account, and you
         </div>
 ```
 
-> [!IMPOERTANT]  
+> [!IMPORTANT]  
 > Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts whiile having rush in Pull Requests
 
 ### 3. Change/Replace the placeholders with your image and profiles urls

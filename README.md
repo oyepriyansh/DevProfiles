@@ -1,47 +1,35 @@
-# DevProfiles
-A place to list and shocase your developer skills and profile
+<h1 align="center">DevProfiles - List Your Developer Profile.</h1>
 
+## ‼ About
 
-## Contribute
+DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.
 
-1. Fork this Repository
+## 🤔 How to add profile?
+> Thank you for your interest in contributing to our open-source project!
 
-2. add following code to HTML `index.html` just before `<!--Profiles-->` comment
+Please see the [CONTRIBUTING.md](https://github.com/oyepriyansh/DevProfiles/blob/master/CONTRIBUTING.md) file for more information.
 
-```html
-        <div class="profile">
-            <div class="pfp"><img src="[YOUR IMAGE URL]" alt="User Image"></div>
-            <h3 class="name">Your Name</h3>
-            <div class="skills">
-                <span class="skill">[SKILL-1]</span>
-                <span class="skill">[SKILL-2]</span>
-                <span class="skill">[SKILL-3]</span>
-            </div>
-            <div class="social">
-                <a href="[YOUR GITHUB URL]" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="[YOUR X/TWITTER URL]" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="[YOUR LINKEDIN URL]" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </div>
-```
-> Note: Do not add your profile above contributors who have contributed before you.
-3. Change/Replace the placeholders with your image and profiles urls
-    - [IMAGE-URL] with your image URL
-    - [YOUR_NAME] with your name
-    - [SKILL-1], [SKILL-2], [SKILL-3] with your skills
-    - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL repectively.
+> [!IMPORTANT]  
+> Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts whiile having rush in Pull Requests
 
-4. Commit your changes.
+## 👨‍💻 Contributing
+Contributions make the open source community such an amazing place to learn, inspire, and create.<br>
+**Any contributions you make are truly appreciated!**
 
-5. Create a Pull Request
+## 🤝 Thank You, Contributors!
+<a href="https://github.com/oyepriyansh/DevProfiles/contributors">
+  <img src="https://contributors-img.web.app/image?repo=oyepriyansh/devprofiles" />
+</a>
 
-6. Wait for Merge
-
-##  Need Help?
+## 🆘 Need Help?
 Join our discord server for any kind of help. <br>
 
 <a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
 
-## Thank You
-Thank you to every contributor of this repository <br>
-Show some love by giving a ⭐ to this repository!
+## 🙏 Support
+Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
+Don't forget to leave a star ⭐
+
+## 💳 Author
+> <a href="https://github.com/oyepriyansh">@ Priyansh Prajapat </a>
+

@@ -1,50 +1,15 @@
-# DevProfiles
-A place to list and showcase your developer skills and profile
+# DevProfiles 👨🏽‍💻
+
+A place to list and showcase your developer skills and profile.
+
+🗣To contribute and to add your own profile please have a look at ```CONTRIBUTING.md``` file.
+and join us to showcase your developer profile.
 
 
-## Contribute
-
-1. Fork this Repository
-
-2. add the following code to HTML `index.html` inside the `<div class="container">` `</div>`
-
-```html
-        <div class="profile">
-            <div class="pfp"><img src="[YOUR IMAGE URL]" alt="User Image"></div>
-            <h3 class="name">Your Name</h3>
-            <div class="skills">
-                <span class="skill">[SKILL-1]</span>
-                <span class="skill">[SKILL-2]</span>
-                <span class="skill">[SKILL-3]</span>
-            </div>
-            <div class="social">
-                <a href="[YOUR GITHUB URL]" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="[YOUR X/TWITTER URL]" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="[YOUR LINKEDIN URL]" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </div>
-```
-
-> [!NOTE]  
-> Don't add your profile at the beginning or end of the file. Put it anywhere in between.
-
-3. Change/Replace the placeholders with your image and profile URLs
-    - [IMAGE-URL] with your image URL
-    - [YOUR_NAME] with your name
-    - [SKILL-1], [SKILL-2], [SKILL-3] with your skills
-    - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your GitHub, X/Twitter & LinkedIn profile URL respectively.
-
-4. Commit your changes.
-
-5. Create a Pull Request
-
-6. Wait for Merge
-
-##  Need Help?
-Join our discord server for any kind of help. <br>
-
+#### 🗣How to communicate to us ?
+Join our Discord server for any kind of help. 
 <a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
 
-## Thank You
-Thank you to every contributor of this repository <br>
-Show some love by giving a ⭐ to this repository!
+#### Thank You
+Thank you to every contributor of this repository <br>Show some love by giving a ⭐ to this repository!
+

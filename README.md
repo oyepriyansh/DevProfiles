@@ -4,7 +4,7 @@
 
 DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.
 
-## 🤔 How to add profile
+## 🤔 How to add profile?
 > Thank you for your interest in contributing to our open-source project!
 
 Please see the [CONTRIBUTING.md](https://github.com/oyepriyansh/DevProfiles/blob/master/CONTRIBUTING.md) file for more information.

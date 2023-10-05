@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@200&display=swap");
 
+/* Define your root variables here */
+:root {
+  --clr-background: #121212;
+  --clr-secondary: #292929;
+  --clr-profile-hover: #333333;
+  --clr-tertiary: #444444;
+  --clr-base: #ffffff;
+  --clr-search-focus: rgba(255, 255, 255, 0.5);
+  --clr-search-shadow: rgba(255, 255, 255, 0.2);
+  --clr-gray: #ffffff;
+}
+
 ::-webkit-scrollbar {
   width: 9px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #141414;
+  background-color: var(--clr-background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #302f2f;
+  background-color: var(--clr-profile-hover);
   border-radius: 12px;
 }
 
@@ -20,10 +32,19 @@
 }
 
 body {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: var(--clr-background);
+  color: var(--clr-gray);
   font-family: Arial, sans-serif;
   text-align: center;
+}
+
+.header {
+  display: flex;
+  background-color: var(--clr-secondary);
+}
+
+.col {
+  flex: 50%;
 }
 
 h1 {
@@ -42,10 +63,9 @@ h1 {
 }
 
 .profile {
-  background-color: #292929;
+  background-color: var(--clr-secondary);
   border-radius: 10px;
   padding: 20px;
-  border: 1px solid rgb(146, 145, 145);
   margin: 20px;
   width: calc(33.33% - 40px);
   text-align: center;
@@ -53,7 +73,7 @@ h1 {
 }
 
 .profile:hover {
-  background-color: #333333;
+  background-color: var(--clr-profile-hover);
 }
 
 .pfp img {
@@ -79,7 +99,7 @@ h1 {
 }
 
 .skill {
-  background-color: #444;
+  background-color: var(--clr-tertiary);
   padding: 5px 10px;
   border-radius: 5px;
   margin: 0 5px 10px 0;
@@ -92,17 +112,14 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0px;
+  background-color: var(--clr-tertiary);
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .social a {
-  color: #ffffff;
-  margin: 0 10px;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.social a {
-  color: #ffffff;
+  color: var(--clr-gray);
   margin: 0 10px;
   font-size: 24px;
   text-decoration: none;
@@ -125,19 +142,20 @@ h1 {
 }
 
 button {
-  color: #fff;
+  color: var(--clr-gray);
   padding: 10px 20px;
-  background-color: #2b3031;
-  border: none;
+  background-color: var(--clr-secondary);
+  border: var(--clr-gray);
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.1em;
   border-radius: 5%;
+  float: inline-start;
 }
 
 .search {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 30px 0 30px 0;
 }
 
 #searchInput {
@@ -145,10 +163,10 @@ button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #121212;
-  color: #ffffff;
+  background-color: var(--clr-background);
+  color: var(--clr-gray);
   font-size: 16px;
-  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 5px var(--clr-search-shadow);
 }
 
 #searchInput::placeholder {
@@ -157,8 +175,5 @@ button {
 
 #searchInput:focus {
   outline: none;
-  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
-}
-.add:hover {
-  transform: scale(1.005);
+  box-shadow: 0px 0px 5px var(--clr-search-focus);
 }

@@ -1,19 +1,19 @@
-# Contributing to DevProfiles.
+# 👨🏽‍💻Contributing to DevProfiles.
 
 Welcome to DevProfiles! We're excited that you're interested in contributing. Please take a moment to read this guide to understand how you can contribute to the project!
 
-## Code of Conduct
+### 👍Code of Conduct
 
 Before you start contributing, we expect all contributors to follow these guidelines to create a respectful and inclusive environment for everyone.
 
-## How can you contribute? 🤔
+### 🤔How can you contribute?
 
-### 📎 Submitting an issue:
+#### 📎 Submitting an issue:
 
 If you feel there's any bug or feature improvement Please raise an issue. We are here to improve 🙌.
 
-### 📎 Submitting a Pull Request:
-#### For Adding your profile in DevProfile :-
+#### 📎 Submitting a Pull Request:
+##### For Adding your profile in DevProfile :-
 
 1. Fork this repository.
 2. Add the following code to HTML index.html inside the <div class="container"> </div>
@@ -35,40 +35,31 @@ If you feel there's any bug or feature improvement Please raise an issue. We are
         </div>
 ```
 
-🗒 NOTE
+🗒 NOTE :-
 Don't add your profile at the beginning or end of the file. Put it anywhere in between.
 
 
 3. Change or replace the placeholders with your image and profile urls.
-[IMAGE-URL] with your image URL.
 
-[YOUR_NAME] with your name.
+`[IMAGE-URL]` with your image URL.
 
-[SKILL-1], [SKILL-2], [SKILL-3] with your skills.
+`[YOUR_NAME]` with your name.
 
-[YOUR GITHUB URL], [YOUR X/TWITTER URL], 
+`[SKILL-1], [SKILL-2], [SKILL-3]` with your skills.
 
-and [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL respectively.
+`[YOUR GITHUB URL], [YOUR X/TWITTER URL], and [YOUR LINKEDIN URL]` with your Github, X/Twitter & LinkedIn profile URL respectively.
 
 
-5. Commit your changes.
-6. Create a pull request with a message.
-7. Wait for Merge .
+4. Commit your changes.
+5. Create a pull request with a message.
+6. Wait for Merge .
 
 And there you go !!🥳
 
-### Stuck? Need any help ?
-
-Join our Discord server for any kind of help. <br>
-
-<a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
-
-
-### Thank You
+#### ✨Thank You
 Thank you for your interest in contributing to DevProfiles !
-We welcome contributions from the community and appreciate your help in making our project better.<br>
+We welcome contributions from the community and appreciate your help in making our project better.
 Thank you to every contributor to this repository.
 Show some love by giving a ⭐ to this repository!
-
 
 

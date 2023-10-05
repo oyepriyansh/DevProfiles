@@ -37,10 +37,17 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+.navbar{
+  overflow: hidden;
+    position: sticky;
+    top: 0; 
+
+}
 
 .header {
   display:flex;
   background-color: var(--clr-secondary);
+  position: sticky;
 }
 
 .col{
@@ -51,6 +58,13 @@ h1 {
   padding: 20px;
   font-size: 36px;
   font-family: "PT Serif", serif;
+  /* changes */
+  line-height:70px;
+  padding: 0 40px;
+  
+  width:40%;
+  letter-spacing:2px;
+  text-shadow:2px 2px 10px;
 }
 
 .container {
@@ -155,6 +169,7 @@ button {
 .search {
   text-align: center;
   margin: 30px 0 30px 0;
+  width: 500px;
 }
 
 #searchInput {

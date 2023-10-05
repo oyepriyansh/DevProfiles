@@ -193,7 +193,7 @@ button {
 display: flex;
 justify-content: flex-end;
 align-items: center;
-padding-right: 50px;
+padding-right: 40px;
 }
 
 .toggle-mode {
@@ -219,7 +219,7 @@ transition: all 250ms ease-in-out;
 }
 
 .toggle-mode::before {
-content: "Dark Mode On";
+content: "Dark mode";
 position: absolute;
 display: inline-block;
 width: 12em;
@@ -232,7 +232,7 @@ transform: translatex(1.8em);
 }
 
 #input-toggle-button:checked ~ .toggle-mode::before {
-content: "Light Mode On";
+content: "Light mode";
 }
 
 #input-toggle-button {

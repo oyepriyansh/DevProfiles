@@ -1,15 +1,32 @@
-# DevProfiles 👨🏽‍💻
+<h1 align="center">DevProfiles - List Your Developer Profile.</h1>
 
-A place to list and showcase your developer skills and profile.
+## ‼ About
 
-🗣To contribute and to add your own profile please have a look at ```CONTRIBUTING.md``` file.
-and join us to showcase your developer profile.
+DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.
 
+## 🤔 How to Contribute
+> Thank you for your interest in contributing to our open-source project!
 
-#### 🗣How to communicate to us ?
-Join our Discord server for any kind of help. 
+Please see the [CONTRIBUTING.md](https://github.com/oyepriyansh/DevProfiles/blob/master/CONTRIBUTING.md) file for more information.
+
+## 👨‍💻 Contributing
+Contributions make the open source community such an amazing place to learn, inspire, and create.<br>
+**Any contributions you make are truly appreciated!**
+
+## 🤝 Thank You, Contributors!
+<a href="https://github.com/oyepriyansh/DevProfiles/contributors">
+  <img src="https://contributors-img.web.app/image?repo=oyepriyansh/devprofiles" />
+</a>
+
+## 🆘 Need Help?
+Join our discord server for any kind of help. <br>
+
 <a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
 
-#### Thank You
-Thank you to every contributor of this repository <br>Show some love by giving a ⭐ to this repository!
+## 🙏 Support
+Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
+Don't forget to leave a star ⭐
+
+## 💳 Author
+> <a href="https://github.com/oyepriyansh">@ Priyansh Prajapat </a>
 

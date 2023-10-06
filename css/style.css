@@ -62,6 +62,14 @@ h1 {
   padding: 20px;
 }
 
+#no-profile
+{
+  text-align: center;
+  padding: 20px;
+  font-family: "PT Serif", serif; 
+  display: none;
+}
+
 .profile {
   background-color: var(--clr-secondary);
   border-radius: 10px;
@@ -75,6 +83,7 @@ h1 {
 .profile:hover {
   background-color: var(--clr-profile-hover);
 }
+
 .pfp img {
   width: 100px;
   height: 100px;

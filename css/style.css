@@ -38,13 +38,29 @@ body {
   text-align: center;
 }
 
-.header {
-  display:flex;
-  background-color: var(--clr-secondary);
+main {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
 }
 
-.col{
-  flex: 50%
+header {
+  display: flex;
+  background-color: var(--clr-secondary);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  max-width: max-content;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.col {
+  flex: 50%;
 }
 
 h1 {
@@ -57,17 +73,18 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  gap: 2rem;
   margin: 0 auto;
-  padding: 20px;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .profile {
   background-color: var(--clr-secondary);
   border-radius: 10px;
   padding: 20px;
-  margin: 20px;
-  width: calc(33.33% - 40px);
+  width: 100%;
+  max-width: 350px;
   text-align: center;
   transition: background-color 0.3s ease;
 }
@@ -146,7 +163,7 @@ button {
   background-color: var(--clr-secondary);
   border: var(--clr-gray);
   cursor: pointer;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1em;
   border-radius: 5%;
   float: inline-start;
@@ -158,7 +175,7 @@ button {
 }
 
 #searchInput {
-  width: 80%;
+  width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -177,7 +194,6 @@ button {
   box-shadow: 0px 0px 5px var(--clr-search-focus);
 }
 
-
 .dark-mode {
   --clr-background: #ffffff;
   --clr-secondary: #f0f0f0;
@@ -190,51 +206,51 @@ button {
 }
 
 .wrapper-toggle-button {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
 }
 
 .toggle-mode {
-width: 4em;
-height: 2em;
-border-radius: 8px;
-background: var(--clr-secondary);
-border: 2px solid var(--clr-gray);
-position: absolute;
-cursor: pointer;
+  width: 4em;
+  height: 2em;
+  border-radius: 8px;
+  background: var(--clr-secondary);
+  border: 2px solid var(--clr-gray);
+  position: absolute;
+  cursor: pointer;
 }
 
 .mode-toggle {
-width: 1.4em;
-height: 1.4em;
-background: var(--clr-gray);
-position: absolute;
-border-radius: 6px;
-top: 0.2em;
-left: 0.25em;
-cursor: pointer;
-transition: all 250ms ease-in-out;
+  width: 1.4em;
+  height: 1.4em;
+  background: var(--clr-gray);
+  position: absolute;
+  border-radius: 6px;
+  top: 0.2em;
+  left: 0.25em;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
 }
 
 .toggle-mode::before {
-content: "Dark mode";
-position: absolute;
-display: inline-block;
-width: 12em;
-left: -10em;
-top: 0.4em;
+  content: "Dark mode";
+  position: absolute;
+  display: inline-block;
+  width: 12em;
+  left: -10em;
+  top: 0.4em;
 }
 
 #input-toggle-button:checked ~ label .mode-toggle {
-transform: translatex(1.8em);
+  transform: translatex(1.8em);
 }
 
 #input-toggle-button:checked ~ .toggle-mode::before {
-content: "Light mode";
+  content: "Light mode";
 }
 
 #input-toggle-button {
-display: none;
+  display: none;
 }

@@ -55,12 +55,10 @@ body {
 }
 
 h1 {
-  padding: 20px;
+  padding: 10px;
   font-size: 36px;
   font-family: "PT Serif", serif;
-  /* changes */
-  line-height:70px;
-  padding: 0 40px;
+  
   
   width:40%;
   letter-spacing:2px;
@@ -147,10 +145,13 @@ h1 {
 @media screen and (max-width: 768px) {
   .container {
     justify-content: center;
+    
   }
 
   .profile {
-    width: 100%;
+    flex: 1;
+    width: 60%;
+   
   }
 }
 
@@ -170,6 +171,7 @@ button {
   text-align: center;
   margin: 30px 0 30px 0;
   width: 100%;
+  flex: 1;
 }
 
 #searchInput {
@@ -191,6 +193,13 @@ button {
   outline: none;
   box-shadow: 0px 0px 5px var(--clr-search-focus);
 }
+/* Make the dark mode toggle button always visible */
+.toggle-mode {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
 
 
 .dark-mode {
@@ -212,8 +221,8 @@ padding-right: 40px;
 }
 
 .toggle-mode {
-width: 4em;
-height: 2em;
+width: 2em;
+height: 1em;
 border-radius: 8px;
 background: var(--clr-secondary);
 border: 2px solid var(--clr-gray);
@@ -222,10 +231,10 @@ cursor: pointer;
 }
 
 .mode-toggle {
-width: 1.4em;
-height: 1.4em;
+width: 0.7em;
+height: 0.4em;
 background: var(--clr-gray);
-position: absolute;
+position: relative;
 border-radius: 6px;
 top: 0.2em;
 left: 0.25em;
@@ -234,7 +243,6 @@ transition: all 250ms ease-in-out;
 }
 
 .toggle-mode::before {
-content: "Dark mode";
 position: absolute;
 display: inline-block;
 width: 12em;
@@ -243,12 +251,9 @@ top: 0.4em;
 }
 
 #input-toggle-button:checked ~ label .mode-toggle {
-transform: translatex(1.8em);
+transform: translatex(0.8em);
 }
 
-#input-toggle-button:checked ~ .toggle-mode::before {
-content: "Light mode";
-}
 
 #input-toggle-button {
 display: none;
@@ -256,33 +261,40 @@ display: none;
 
 
 /* Responsive styles for mobile screens */
-@media (max-width: 927px) {
+@media (max-width: 768px) {
+  
   .header {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
   }
 
   h1 {
-      font-size: 20px;
-      margin-bottom: 10px;
+      font-size: 15px;
+      margin-right: 10px;
+      
   }
 
   .search {
     margin: 10px 0;
+    flex: 2;
 }
 
 #searchInput {
     width: auto; 
 }
 
-  .add {
-      margin-top: 10px;
-  }
+.add {
+  font-size: 14px; /* Smaller font size for mobile */
+  padding: 4px 8px; /* Decreased padding for mobile */
+}
       
       .toggle-mode {
         /* position: sticky; */
-        top: 10px;
-        right: 30px;
+        top: 5px;
+        right: 5px;
     }
+
+    
+    
 
 }

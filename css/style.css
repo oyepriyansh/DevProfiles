@@ -169,11 +169,11 @@ button {
 .search {
   text-align: center;
   margin: 30px 0 30px 0;
-  width: 500px;
+  width: 100%;
 }
 
 #searchInput {
-  width: 80%;
+  width: auto;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -252,4 +252,37 @@ content: "Light mode";
 
 #input-toggle-button {
 display: none;
+}
+
+
+/* Responsive styles for mobile screens */
+@media (max-width: 927px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  .search {
+    margin: 10px 0;
+}
+
+#searchInput {
+    width: auto; 
+}
+
+  .add {
+      margin-top: 10px;
+  }
+      
+      .toggle-mode {
+        /* position: sticky; */
+        top: 10px;
+        right: 30px;
+    }
+
 }

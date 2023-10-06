@@ -17,23 +17,26 @@
 <body>
 
     <nav class="navbar">
-    <div class="header">
-        <h1 class="col">Dev Profiles</h1>
-        <div class="search">
-            <input type="text" id="searchInput" placeholder="Search by name or skill...">
+        <div class="header">
+            <h1 class="col">Dev Profiles</h1>
+            
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search by name or skill...">
+            </div>
+            
+            
+            
+            <button class="add col" onclick='window.open("https://github.com/oyepriyansh/DevProfiles","_blank")'>
+                <span>Add your Profile &nbsp;</span><i class="fa-sharp fa-solid fa-user-plus"></i>
+            </button>
+            <div class="wrapper-toggle-button col">
+                <input type="checkbox" id="input-toggle-button">
+                <label for="input-toggle-button" class="toggle-mode">
+                    <div class="mode-toggle"></div>
+                </label>
+            </div>
         </div>
-         <button class="add col"
-        onclick='window.open("https://github.com/oyepriyansh/DevProfiles","_blank")'"><span>Add your Profile &nbsp;</span><i class="
-        fa-sharp fa-solid fa-user-plus"></i> </button>
-
-        <div class="wrapper-toggle-button col">
-            <input type="checkbox" id="input-toggle-button">
-            <label for="input-toggle-button" class="toggle-mode">
-            <div class="mode-toggle"></div>
-            </label>
-        </div>
-</div>
-</nav>
+    </nav>
     <div class="container">
         <!--Don't add your profile in top or bottom, add it in between, this is to avoid merge conflicts -->
 

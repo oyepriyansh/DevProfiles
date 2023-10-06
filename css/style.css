@@ -13,16 +13,22 @@
 }
 
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 10px;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
-  background-color: var(--clr-background);
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DC143C; 
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: var(--clr-profile-hover);
-  border-radius: 12px;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
 }
 
 * {

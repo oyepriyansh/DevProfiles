@@ -44,13 +44,24 @@ body {
 }
 
 .col{
-  flex: 50%
+  /* flex: 50% */
+  display: flex;
+  flex: 50%;
 }
 
+.add-col{
+  margin-left: 25px;
+}
+.add-col:hover{
+  background-color: rgb(61, 59, 59);
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
 h1 {
   padding: 20px;
   font-size: 36px;
   font-family: "PT Serif", serif;
+  
 }
 
 .container {
@@ -72,16 +83,22 @@ h1 {
 
 .profile {
   background-color: var(--clr-secondary);
+  border: 1px solid black ;
+  box-shadow: 3px 3px 2px 2px rgb(141, 139, 139);
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
   width: calc(33.33% - 40px);
   text-align: center;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
+  transform: scale(1.0);
+  transition-duration: 1s;
 }
 
 .profile:hover {
   background-color: var(--clr-profile-hover);
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
 }
 
 .pfp img {

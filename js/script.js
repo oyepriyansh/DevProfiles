@@ -37,6 +37,7 @@ function checkMode() {
   if (colorSwitch.checked) {
     console.log("dark on");
     darkModeOn();
+    btn.style.color = "black";
     btn.addEventListener('mouseover', () => {
       btn.style.color = "white";
     })
@@ -46,6 +47,14 @@ function checkMode() {
   } else {
     console.log("dark off");
     darkModeOff();
+    btn.style.color = "white";
+    btn.addEventListener('mouseout', () => {
+      btn.style.color = "white";
+    })
+
+    btn.addEventListener('mouseover', () => {
+      btn.style.color = "white";
+    })
   }
 }
 

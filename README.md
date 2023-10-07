@@ -10,7 +10,7 @@ DevProfiles is a platform for developers to easily share their profiles, spotlig
 Please see the [CONTRIBUTING.md](https://github.com/oyepriyansh/DevProfiles/blob/master/CONTRIBUTING.md) file for more information.
 
 > [!IMPORTANT]  
-> Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts whiile having rush in Pull Requests
+> Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts while having rush in Pull Requests
 
 ## 👨‍💻 Contributing
 Contributions make the open source community such an amazing place to learn, inspire, and create.<br>

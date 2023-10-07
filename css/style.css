@@ -83,23 +83,20 @@ h1 {
 
 .profile {
   background-color: var(--clr-secondary);
-  border: 1px solid black ;
-  box-shadow: 3px 3px 2px 2px rgb(141, 139, 139);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
   width: calc(33.33% - 40px);
   text-align: center;
-  /* transition: background-color 0.3s ease; */
-  transform: scale(1.0);
-  transition-duration: 1s;
+  transition: all 0.3s ease; /* Add a smooth transition for all properties */
 }
 
 .profile:hover {
-  background-color: var(--clr-profile-hover);
-  transform: scale(1.1);
-  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Improved box shadow */
+  transform: scale(1.05); /* Slightly increase the scale on hover */
 }
+
 
 .pfp img {
   width: 100px;

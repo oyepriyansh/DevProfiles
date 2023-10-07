@@ -46,6 +46,15 @@ function checkMode() {
   } else {
     console.log("dark off");
     darkModeOff();
+    btn.addEventListener('mouseout', () => {
+      btn.style.background = "black";
+      btn.style.color = "white"
+    })
+
+    btn.addEventListener('mouseover', () => {
+      btn.style.background = "white";
+      btn.style.color = "black";
+    })
   }
 }
 

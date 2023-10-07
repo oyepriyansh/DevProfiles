@@ -37,25 +37,23 @@ function checkMode() {
   if (colorSwitch.checked) {
     console.log("dark on");
     darkModeOn();
+    btn.style.color = "black";
     btn.addEventListener('mouseover', () => {
       btn.style.color = "white";
-      btn.style.background = "black";
     })
     btn.addEventListener('mouseout', () => {
-      btn.style.background = "white"
       btn.style.color = "black";
     })
   } else {
     console.log("dark off");
     darkModeOff();
+    btn.style.color = "white";
     btn.addEventListener('mouseout', () => {
-      btn.style.background = "black";
-      btn.style.color = "white"
+      btn.style.color = "white";
     })
 
     btn.addEventListener('mouseover', () => {
-      btn.style.background = "white";
-      btn.style.color = "black";
+      btn.style.color = "white";
     })
   }
 }

@@ -2,7 +2,7 @@ name: "🆕 Add Profile "
 description: "Add a new profile on DevProfiles"
 title: "data: profile addition by <your name>"
 labels:
-  - "new-profile"
+  - "new profile"
   - "good first issue"
 body:
   - type: textarea

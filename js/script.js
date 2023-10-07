@@ -39,8 +39,10 @@ function checkMode() {
     darkModeOn();
     btn.addEventListener('mouseover', () => {
       btn.style.color = "white";
+      btn.style.background = "black";
     })
     btn.addEventListener('mouseout', () => {
+      btn.style.background = "white"
       btn.style.color = "black";
     })
   } else {

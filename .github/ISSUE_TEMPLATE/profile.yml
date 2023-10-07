@@ -1,0 +1,20 @@
+name: "🆕 Add Profile "
+description: "Add a new profile on DevProfiles"
+title: "data: profile addition by <your name>"
+labels:
+  - "new-profile"
+  - "good first issue"
+body:
+  - type: textarea
+    id: profile-add
+    attributes:
+      label: "profile"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Ready to Work?"
+      options:
+        - label: "I want to work on this issue"
+          required: true

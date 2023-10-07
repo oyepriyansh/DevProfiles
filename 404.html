@@ -1,82 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<meta content="width=device-width,initial-scale=1" name="viewport">
-<meta content="noindex, nofollow" name="robots">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<link href="https://oyepriyansh.github.io/favicon.ico" rel="icon" type="image/x-icon">
-<title>404 - Not Found</title>
-<style>
-    body,
-    html {
-        margin: 0;
-        background-color: #222;
-        color: #aaa;
-        font-family: Hack, monospace;
-        font-size: 0
-    }
 
-    .full-height {
-        height: 100vh
-    }
-
-    .flex-center {
-        align-items: center;
-        display: flex;
-        justify-content: center
-    }
-
-    #error_text {
-        font-size: 32px
-    }
-
-    button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #2b3031;
-        border: none;
-        color: #fff;
-        border-radius: 4px;
-        margin-top: 10px;
-        font-size: 16px;
-        cursor: pointer;
-        transition: all .3s ease-in-out
-    }
-
-    button:hover {
-        background-color: #555
-    }
-</style>
-<div class="flex-center full-height">
-    <div>
-        <div id="error_text"><span class="source">404: <span data-l10n>Not Found</span></span> <span class="target"></span></div>
-        <center><button onclick='location.href="/"'>Back to Home</button></center>
-    </div>
-</div>
-<script>
-    'use strict';
-    var e, t;
-    new function(e) {
-        const t = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=+<>,./?[{()}]!@#$%^&*~`|".split(""),
-            n = e.querySelector(".source"),
-            o = e.querySelector(".target");
-        let r, i, l, s = 0;
-        this.start = function() {
-            n.style.display = "none", o.style.display = "block", r = window.setInterval((() => {
-                s <= n.innerText.length && (o.innerText = n.innerText.substring(0, s) + function(e) {
-                    let n = "";
-                    for (let o = 0; o < e; o++) n += t[Math.floor(Math.random() * t.length)];
-                    return n
-                }(n.innerText.length - s))
-            }), 15), i = window.setTimeout((() => {
-                l = window.setInterval((() => {
-                    s > n.innerText.length - 1 && this.stop(), s++
-                }), 70)
-            }), 350)
-        }, this.stop = function() {
-            n.style.display = "block", o.style.display = "none", o.innerText = "", s = 0, void 0 !== r && (window.clearInterval(r), r = void 0), void 0 !== l && (window.clearInterval(l), l = void 0), void 0 !== i && (window.clearInterval(i), i = void 0)
-        }
-    }(document.getElementById("error_text")).start(), "en" !== navigator.language.substring(0, 2).toLowerCase() && (e = document.createElement("script"), t = document.body, e.src = "", e.async = e.defer = !0, e.addEventListener("load", (() => t.removeChild(e))), t.appendChild(e));
-</script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevProfiles - 404 Not-Found</title>
+    <meta name="description" content="DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.">
+    <meta name="author" content="Priyansh Prajapat">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="DevProfiles - 404 Not-Found">
+    <meta property="og:description" content="DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.">
+    <meta property="og:image" content="https://profile.is-a.dev/assets/devprofiles.jpg">
+    <meta property="og:url" content="https://profile.is-a.dev">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DevProfiles - 404 Not-Found">
+    <meta name="twitter:description" content="DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.">
+    <meta name="twitter:image" content="https://profile.is-a.dev/assets/devprofiles.jpg">
+    <meta name="github" content="https://github.com/oyepriyansh/DevProfiles">
+    <meta name="google-site-verification" content="e9Bhucu2K3Rh7A6l2YCSSPnnldDLjpdGyVQ011d_nc8" />
+    <link rel="canonical" href="https://profile.is-a.dev">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/404.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GTFGBS8HG8"></script>
+    <script type="text/javascript" src="https://oyepriyansh.pages.dev/cdnjs/analytics/devprofiles.js"></script>
+  </head>
 </body>
+    <div class="flex-center full-height">
+       <div>
+            <div id="error_text"><span class="source">404: <span data-l10n>Not Found</span></span> <span
+                   class="target"></span></div>
+           <center><button onclick='location.href="/"'>Back to Home</button></center>
+        </div>
+    </div>
+    <script src="js/404.js"></script>
+  </body>
 </html>

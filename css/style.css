@@ -43,6 +43,54 @@ body {
   background-color: var(--clr-secondary);
 }
 
+.logo {
+  text-align: center;
+}
+
+.logo  {
+  font-family: 'YourFont', sans-serif;
+  font-size: 48px;
+  color: #3c4145;
+  letter-spacing: 2px;
+  position: relative;
+  animation: move 3s ease-in-out infinite alternate, colorChange 5s infinite alternate;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  transform-origin: center;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #977e73;
+  }
+  50% {
+    color: #ff5733; 
+    /* Change to a different color at 50% */
+
+  }
+  100% {
+    color: #93908e;;
+   
+  }
+}
+
+.logo :hover {
+  animation: none;
+  transform: scale(1.2);
+  color: #ff5733;
+}
+
+
+
+
 .col{
   /* flex: 50% */
   display: flex;

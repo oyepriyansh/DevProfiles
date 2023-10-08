@@ -47,7 +47,7 @@ body {
   text-align: center;
 }
 
-.logo  {
+.devLogo  {
   font-family: 'YourFont', sans-serif;
   font-size: 48px;
   color: #3c4145;
@@ -82,7 +82,7 @@ body {
   }
 }
 
-.logo :hover {
+.devLogo :hover {
   animation: none;
   transform: scale(1.2);
   color: #ff5733;

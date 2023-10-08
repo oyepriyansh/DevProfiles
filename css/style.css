@@ -43,11 +43,11 @@ body {
   background-color: var(--clr-secondary);
 }
 
-.logo {
+.devLogo  {
   text-align: center;
 }
 
-.logo  {
+.devLogo   {
   font-family: 'YourFont', sans-serif;
   font-size: 47px;
   color: #3c4145;
@@ -82,14 +82,11 @@ body {
   }
 }
 
-.logo :hover {
+.devLogo :hover {
   animation: none;
   transform: scale(1.2);
   color: #ff5733;
 }
-
-
-
 
 .col{
   /* flex: 50% */

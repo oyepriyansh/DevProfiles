@@ -39,20 +39,20 @@ body {
 }
 
 .header {
-  display:flex;
+  display: flex;
   background-color: var(--clr-secondary);
 }
 
-.col{
+.col {
   /* flex: 50% */
   display: flex;
   flex: 50%;
 }
 
-.add-col{
+.add-col {
   margin-left: 25px;
 }
-.add-col:hover{
+.add-col:hover {
   background-color: rgb(61, 59, 59);
   transform: scale(1.1);
   transition: transform 0.5s ease-in-out;
@@ -61,7 +61,6 @@ h1 {
   padding: 20px;
   font-size: 36px;
   font-family: "PT Serif", serif;
-  
 }
 
 .container {
@@ -73,17 +72,16 @@ h1 {
   padding: 20px;
 }
 
-#no-profile
-{
+#no-profile {
   text-align: center;
   padding: 20px;
-  font-family: "PT Serif", serif; 
+  font-family: "PT Serif", serif;
   display: none;
 }
 
 .profile {
   background-color: var(--clr-secondary);
-  border: 1px solid black ;
+  border: 1px solid black;
   box-shadow: 3px 3px 2px 2px rgb(141, 139, 139);
   border-radius: 10px;
   padding: 20px;
@@ -91,7 +89,7 @@ h1 {
   width: calc(33.33% - 40px);
   text-align: center;
   /* transition: background-color 0.3s ease; */
-  transform: scale(1.0);
+  transform: scale(1);
   transition-duration: 1s;
 }
 
@@ -172,7 +170,7 @@ button {
   background-color: var(--clr-secondary);
   border: var(--clr-gray);
   cursor: pointer;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1em;
   border-radius: 5%;
   float: inline-start;
@@ -203,7 +201,6 @@ button {
   box-shadow: 0px 0px 5px var(--clr-search-focus);
 }
 
-
 .dark-mode {
   --clr-background: #ffffff;
   --clr-secondary: #f0f0f0;
@@ -216,51 +213,51 @@ button {
 }
 
 .wrapper-toggle-button {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
 }
 
 .toggle-mode {
-width: 4em;
-height: 2em;
-border-radius: 8px;
-background: var(--clr-secondary);
-border: 2px solid var(--clr-gray);
-position: absolute;
-cursor: pointer;
+  width: 4em;
+  height: 2em;
+  border-radius: 8px;
+  background: var(--clr-secondary);
+  border: 2px solid var(--clr-gray);
+  position: absolute;
+  cursor: pointer;
 }
 
 .mode-toggle {
-width: 1.4em;
-height: 1.4em;
-background: var(--clr-gray);
-position: absolute;
-border-radius: 6px;
-top: 0.2em;
-left: 0.25em;
-cursor: pointer;
-transition: all 250ms ease-in-out;
+  width: 1.4em;
+  height: 1.4em;
+  background: var(--clr-gray);
+  position: absolute;
+  border-radius: 6px;
+  top: 0.2em;
+  left: 0.25em;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
 }
 
 .toggle-mode::before {
-content: "Dark mode";
-position: absolute;
-display: inline-block;
-width: 12em;
-left: -10em;
-top: 0.4em;
+  content: "Dark mode";
+  position: absolute;
+  display: inline-block;
+  left: -6em;
+  padding-right: 1em;
+  top: 0.4em;
 }
 
 #input-toggle-button:checked ~ label .mode-toggle {
-transform: translatex(1.8em);
+  transform: translatex(1.8em);
 }
 
 #input-toggle-button:checked ~ .toggle-mode::before {
-content: "Light mode";
+  content: "Light mode";
 }
 
 #input-toggle-button {
-display: none;
+  display: none;
 }

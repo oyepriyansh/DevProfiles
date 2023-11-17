@@ -31,5 +31,5 @@ Thank you for contributing to our open-source project! We appreciate your suppor
 Don't forget to leave a star ⭐
 
 ## 💳 Author
-> <a href="https://biodrop.io/oyepriyansh">Priyansh Prajapat (@oyepriyansh)</a>
+> <a href="https://x.com/oyepriyansh">Priyansh Prajapat (@oyepriyansh)</a>
 

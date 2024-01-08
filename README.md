@@ -24,7 +24,9 @@ Thank you for your valuable contributions to my open source repository!
 ## 🆘 Need Help?
 Join our Discord server for any kind of help. <br>
 
-<a href="https://discord.com/invite/AeAjegXn6D"><img src="https://invidget.switchblade.xyz/AeAjegXn6D" alt="Discord Server"></a>
+<a href="https://discord.com/invite/2aAdfJHSWR">
+  <img src="https://invidget.switchblade.xyz/2aAdfJHSWR" alt="Discord Server">
+</a>
 
 ## 🙏 Support
 Don't forget to leave a star ⭐

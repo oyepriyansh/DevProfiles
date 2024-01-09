@@ -261,3 +261,70 @@ button {
 #input-toggle-button {
   display: none;
 }
+
+footer {
+  padding: 20px 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fabout, .flinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fabout {
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2.5px;
+}
+
+.fabout p {
+  text-align: left;
+  max-width: 400px; 
+}
+
+.ficons a {
+  color: #3498db; 
+  text-decoration: none;
+  margin: 5px 10px; 
+  display: inline-flex; 
+  align-items: center; 
+}
+
+.fcontainer {
+  display: inline-flex; 
+}
+
+.ficons i {
+  margin-right: 5px;
+}
+
+.ficons a:hover {
+  text-decoration: underline;
+}
+
+.flinks {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flinks a {
+  color: #ecf0f1; 
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.flinks a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  color: #bdc3c7; 
+  font-size: 18px; 
+}

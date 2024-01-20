@@ -261,70 +261,77 @@ button {
 #input-toggle-button {
   display: none;
 }
-
+/* footer  */
 footer {
-  padding: 20px 0; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.fabout, .flinks {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 20px;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.fabout {
-  flex-direction: column;
-  align-items: center;
-  margin-right: 2.5px;
+.footer-about,
+.footer-links {
+    flex: 1;
+    padding: 0 20px;
 }
 
-.fabout p {
-  text-align: left;
-  max-width: 400px; 
+.footer-about {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.ficons a {
-  color: #3498db; 
-  text-decoration: none;
-  margin: 5px 10px; 
-  display: inline-flex; 
-  align-items: center; 
+.footer-about p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
 }
 
-.fcontainer {
-  display: inline-flex; 
+.footer-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.ficons i {
-  margin-right: 5px;
+.footer-links a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
 }
 
-.ficons a:hover {
-  text-decoration: underline;
+.footer-social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
 }
 
-.flinks {
-  flex-direction: column;
-  align-items: flex-start;
+.footer-social-icons a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
 }
 
-.flinks a {
-  color: #ecf0f1; 
-  text-decoration: none;
-  margin: 5px 0;
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
 }
 
-.flinks a:hover {
-  text-decoration: underline;
+.footer-copyright a {
+    color: #ffd700; /* Change to your preferred link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.copyright {
-  text-align: center;
-  margin-top: 20px;
-  color: #bdc3c7; 
-  font-size: 18px; 
+.footer-copyright a:hover {
+    color: #fff; /* Change to your preferred hover color */
 }

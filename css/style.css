@@ -91,6 +91,10 @@ h1 {
   /* transition: background-color 0.3s ease; */
   transform: scale(1);
   transition-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 350px;
 }
 
 .profile:hover {
@@ -263,13 +267,14 @@ button {
 }
 
 footer {
-  padding: 20px 0; 
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.fabout, .flinks {
+.fabout,
+.flinks {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -284,19 +289,19 @@ footer {
 
 .fabout p {
   text-align: left;
-  max-width: 400px; 
+  max-width: 400px;
 }
 
 .ficons a {
-  color: #3498db; 
+  color: #3498db;
   text-decoration: none;
-  margin: 5px 10px; 
-  display: inline-flex; 
-  align-items: center; 
+  margin: 5px 10px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .fcontainer {
-  display: inline-flex; 
+  display: inline-flex;
 }
 
 .ficons i {
@@ -313,7 +318,7 @@ footer {
 }
 
 .flinks a {
-  color: #ecf0f1; 
+  color: #ecf0f1;
   text-decoration: none;
   margin: 5px 0;
 }
@@ -325,6 +330,6 @@ footer {
 .copyright {
   text-align: center;
   margin-top: 20px;
-  color: #bdc3c7; 
-  font-size: 18px; 
+  color: #bdc3c7;
+  font-size: 18px;
 }

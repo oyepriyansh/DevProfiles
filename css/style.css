@@ -346,13 +346,16 @@ footer {
   margin-bottom: 10px;
   display: none;
   border-radius: 50%;
+  background-color: var(--clr-profile-hover);
 }
 
 .arrow-icon {
   animation: bounce 2s infinite ease-in-out;
   -webkit-animation: bounce 2s infinite ease-in-out;
 }
-
+.arrow-icon > path {
+  fill: var(--clr-gray);
+}
 @keyframes bounce {
   0%,
   100% {

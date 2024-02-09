@@ -41,6 +41,10 @@ body {
 .header {
   display: flex;
   background-color: var(--clr-secondary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
 }
 
 .col {

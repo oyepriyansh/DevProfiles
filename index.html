@@ -1930,6 +1930,43 @@
 
         <p class="copyright"> Copyright © <span id="currentYear"></span> DevProfiles | All rights reserved. </p>
       </footer>
+      <button
+  id="backToTopBtn"
+  class="top-btn"
+>
+  <svg
+    width="24"
+    height="24"
+    xmlns="http://www.w3.org/2000/svg"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    class="arrow-icon"
+  >
+    <path
+      d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"
+      fill="white"
+    />
+  </svg>
+</button>
+
+<script>
+  // Get the FAB
+  var fabButton = document.getElementById("backToTopBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the FAB
+  window.onscroll = function () {
+    if (window.scrollY > 20) {
+      fabButton.style.display = "block";
+    } else {
+      fabButton.style.display = "none";
+    }
+  };
+
+  // When the user clicks on the FAB, scroll to the top of the document
+  fabButton.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
     <script src="js/cyear.js"></script>
     <script src="js/search.js"></script>
     <script src="js/theme.js"></script>

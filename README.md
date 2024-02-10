@@ -2,7 +2,7 @@
 
 ## ❗ About
 
-DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.
+DevProfiles is a platform for developers to easily share their profiles, spotlight their skills, and connect with fellow developers in the community.
 
 ## 👨‍💻 Contributing
 Contributions make the open source community such an amazing place to learn, inspire, and create.<br>

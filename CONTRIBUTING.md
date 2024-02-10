@@ -26,14 +26,14 @@ add following code to HTML `index.html` inside the `<div class="container">` `</
 ```
 
 > [!IMPORTANT]  
-> Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts whiile having rush in Pull Requests
+> Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts while having rush in Pull Requests
 
 ### 3. Fill Placeholder
 Change/Replace the placeholders with your image and profiles urls
   - [IMAGE-URL] with your image URL
   - [YOUR_NAME] with your name
   - [SKILL-1], [SKILL-2], [SKILL-3] with your skills
-  - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL repectively.
+  - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL respectively.
 
 ### 4 Pull Request 
 - You can now commit changes to the DevProfiles repository. Once you've made the changes you want, [create a pull request](https://github.com/oyepriyansh/DevProfiles/pulls). **Make sure to add a good PR title, example: `data: profile addition by JohnDoe`.**

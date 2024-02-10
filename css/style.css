@@ -366,3 +366,9 @@ footer {
     transform: translateY(-20%);
   }
 }
+.arrow-icon > path {
+  fill: var(--clr-gray);
+}
+.top-btn{
+  background-color: var(--clr-secondary)
+}

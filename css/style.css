@@ -41,6 +41,10 @@ body {
 .header {
   display: flex;
   background-color: var(--clr-secondary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
 }
 
 .col {
@@ -346,16 +350,13 @@ footer {
   margin-bottom: 10px;
   display: none;
   border-radius: 50%;
-  background-color: var(--clr-profile-hover);
 }
 
 .arrow-icon {
   animation: bounce 2s infinite ease-in-out;
   -webkit-animation: bounce 2s infinite ease-in-out;
 }
-.arrow-icon > path {
-  fill: var(--clr-gray);
-}
+
 @keyframes bounce {
   0%,
   100% {
@@ -364,4 +365,10 @@ footer {
   50% {
     transform: translateY(-20%);
   }
+}
+.arrow-icon > path {
+  fill: var(--clr-gray);
+}
+.top-btn{
+  background-color: var(--clr-secondary)
 }

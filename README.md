@@ -31,5 +31,7 @@ Join our Discord server for any kind of help. <br>
 ## 🙏 Support
 Don't forget to leave a star ⭐
 
+<a href="#"> <img src="https://oyepriyansh.pages.dev/i/895dfb4d98fgcf5e.gif" alt="star repo gif"> </a>
+
 ## 💳 Author
 > <a href="https://oyepriyansh.github.io">Priyansh Prajapat (@oyepriyansh)</a>

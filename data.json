@@ -942,5 +942,14 @@
     "twitter": "",
     "linkedin": "",
     "skills": ["NodeJS", "PostgreSQL"]
+  },
+  {
+    "name": "Emmanuel P. Barrameda",
+    "image": "https://avatars.githubusercontent.com/u/67356375",
+    "github": "https://github.com/emmanpbarrameda",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/emmanpbarrameda",
+    "skills": ["Java", "C#", "VB.Net", "HTML/CSS/Javascript", "PHP", "Laravel"]
   }
+
 ]

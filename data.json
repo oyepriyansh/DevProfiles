@@ -1,0 +1,946 @@
+[
+  {
+    "name": "Priyansh Prajapat",
+    "image": "https://avatars.githubusercontent.com/u/83062406",
+    "github": "https://github.com/oyepriyansh",
+    "twitter": "https://twitter.com/oyepriyansh",
+    "linkedin": "https://linkedin.com/in/oyepriyansh",
+    "skills": ["Java", "Javascript"]
+  },
+  {
+    "name": "Arman",
+    "image": "https://cdn.arman.is-a.dev/me/avatar.png",
+    "github": "https://github.com/ItzArman09",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["Javascript", "NextJS", "Python"]
+  },
+  {
+    "name": "Sahil Khan",
+    "image": "https://cdn-sd.pages.dev/img/sahil.jpg",
+    "github": "https://github.com/SpicyDevSahil",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["HTML", "Javascript", "Python"]
+  },
+  {
+    "name": "Juan Diaz",
+    "image": "https://avatars.githubusercontent.com/u/25883220",
+    "github": "https://github.com/JuanPabloDiaz",
+    "twitter": "https://twitter.com/1diazdev",
+    "linkedin": "https://linkedin.com/in/1diazdev",
+    "skills": ["React", "NextJS", "Javascript"]
+  },
+  {
+    "name": "Gangadhara Rao Ande",
+    "image": "https://res.cloudinary.com/dbbyhhnom/image/upload/v1704722815/Portfolio/photo_q7g756.jpg",
+    "github": "https://github.com/gangadhararaoande",
+    "twitter": "https://twitter.com/Gangadhara18Rao",
+    "linkedin": "https://www.linkedin.com/in/gangadhara-rao-ande",
+    "skills": ["HTML", "CSS", "Javascript", "SQL", "Python"]
+  },
+  {
+    "name": "cvyl / Mikka",
+    "image": "https://avatars.githubusercontent.com/u/38471793",
+    "github": "https://github.com/cvyl",
+    "twitter": "https://cvyl.me",
+    "linkedin": "",
+    "skills": ["Amateur FSD"]
+  },
+  {
+    "name": "Aquul ur Rahman Khan",
+    "image": "https://avatars.githubusercontent.com/u/119236505",
+    "github": "https://github.com/Rahmaaaan",
+    "twitter": "https://twitter.com/therahmaan",
+    "linkedin": "https://www.linkedin.com/in/therahman",
+    "skills": ["Javascript", "Typescript", "React", "Python"]
+  },
+  {
+    "name": "Shrut Sureja",
+    "image": "https://avatars.githubusercontent.com/u/92169549",
+    "github": "https://github.com/shrutsureja",
+    "twitter": "https://twitter.com/shrutsureja",
+    "linkedin": "https://www.linkedin.com/in/shrutsureja",
+    "skills": ["MERN", "NextJS", "LLMops"]
+  },
+  {
+    "name": "Himanshu Chandola",
+    "image": "https://avatars.githubusercontent.com/u/96554303",
+    "github": "https://github.com/himanshuchandola",
+    "twitter": "https://himanshuchandola-portfolio.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/himanshuchandola",
+    "skills": ["Javascript", "React", "NextJS"]
+  },
+  {
+    "name": "Juliana Praxedes",
+    "image": "https://avatars.githubusercontent.com/u/106705490",
+    "github": "https://github.com/praxeds",
+    "twitter": "http://julianapraxedes.com",
+    "linkedin": "https://www.linkedin.com/in/juliana-praxedes",
+    "skills": ["Elixir", "React", "VueJS"]
+  },
+  {
+    "name": "Robert Dixon",
+    "image": "https://avatars.githubusercontent.com/u/79385125",
+    "github": "https://github.com/robsd",
+    "twitter": "https://robertd.co.uk",
+    "linkedin": "https://linkedin.com/in/robstewartdixon",
+    "skills": ["HTML", "CSS", "Javascript", "Python", "PHP", "MySQL"]
+  },
+  {
+    "name": "Hemang Yadav",
+    "image": "https://avatars.githubusercontent.com/u/133865660",
+    "github": "https://github.com/Zemerik",
+    "twitter": "https://twitter.com/ZemerikY",
+    "linkedin": "",
+    "skills": ["Javascript", "Typescript", "Python", "MongoDB"]
+  },
+  {
+    "name": "Lakshay Joshi",
+    "image": "https://avatars.githubusercontent.com/u/89472581",
+    "github": "https://github.com/lakshay451",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/lakshay-joshi-b9298b201",
+    "skills": ["Javascript", "React", "NodeJS", "MERN"]
+  },
+  {
+    "name": "Nelson Uprety",
+    "image": "https://avatars.githubusercontent.com/u/25173636",
+    "github": "https://github.com/nelsonuprety1",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/nelson-uprety-951a2b156",
+    "skills": ["HTML/CSS", "Javascript", "React"]
+  },
+  {
+    "name": "Rohit Kumar Dey",
+    "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/132741672/273449232-7e57d763-c5b4-46bc-ab28-29c5b68c1a82.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240620T150541Z&X-Amz-Expires=300&X-Amz-Signature=fca10a6e659de97552d2a95eb529fee46229dec2ef5105e15488dc3274db7d47&X-Amz-SignedHeaders=host&actor_id=83062406&key_id=0&repo_id=695949186",
+    "github": "https://github.com/rohits-web03",
+    "twitter": "https://twitter.com/rohits_web",
+    "linkedin": "https://www.linkedin.com/in/rohit-kumar-dey-3856891a5",
+    "skills": ["MERN", "TailwindCSS", "Javascript", "React"]
+  },
+  {
+    "name": "Ajay Dhangar",
+    "image": "https://avatars.githubusercontent.com/u/99037494",
+    "github": "https://github.com/Ajay-Dhangar",
+    "twitter": "https://twitter.com/AJAYDHA27250016",
+    "linkedin": "https://www.linkedin.com/in/ajay-dhangar",
+    "skills": ["MERN", "Java"]
+  },
+  {
+    "name": "Rémi JARA",
+    "image": "https://avatars.githubusercontent.com/u/82316285",
+    "github": "https://github.com/icepick4",
+    "twitter": "https://capitalympics.com",
+    "linkedin": "https://www.linkedin.com/in/remijara",
+    "skills": ["Python", "Typescript", "VueJS", "React", "Java"]
+  },
+  {
+    "name": "Akansh Bende",
+    "image": "https://avatars.githubusercontent.com/u/76099756",
+    "github": "https://github.com/akanshbende",
+    "twitter": "https://twitter.com/akansh_bende",
+    "linkedin": "https://www.linkedin.com/in/akansh-bende",
+    "skills": ["C++", "Javascript", "React", "TailwindCSS"]
+  },
+  {
+    "name": "Rohit Singh",
+    "image": "https://avatars.githubusercontent.com/u/77211013",
+    "github": "https://github.com/starohit",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/btwitsrohit",
+    "skills": ["Java", "Python"]
+  },
+  {
+    "name": "Pradeep Pawar",
+    "image": "https://avatars.githubusercontent.com/u/72540482",
+    "github": "https://github.com/pradeep8577",
+    "twitter": "https://x.com/Pradeep8577",
+    "linkedin": "https://linkedin.com/in/pradeep-pawar-6541541aa",
+    "skills": ["Javascript", "NodeJS", "Python"]
+  },
+  {
+    "name": "Dev Sanghvi",
+    "image": "https://avatars.githubusercontent.com/u/105737978",
+    "github": "https://github.com/dev31sanghvi",
+    "twitter": "https://twitter.com/DevSanghvi13",
+    "linkedin": "https://www.linkedin.com/in/dev-sanghvi-6137401b1",
+    "skills": ["React", "Javascript", "NodeJS"]
+  },
+  {
+    "name": "Vishal Kumar",
+    "image": "https://avatars.githubusercontent.com/u/57006294",
+    "github": "https://github.com/vishalverma9572",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/vishal-kumar-375a25250",
+    "skills": ["C++", "Python"]
+  },
+  {
+    "name": "Septian Maulana",
+    "image": "https://avatars.githubusercontent.com/u/32449344",
+    "github": "https://github.com/tianbuyung",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/septian-maulana",
+    "skills": ["Javascript", "Typescript", "Solidity"]
+  },
+  {
+    "name": "Kumar Shivam",
+    "image": "https://avatars.githubusercontent.com/u/88775032",
+    "github": "https://github.com/kshivam30",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/kumarshivam30",
+    "skills": ["C++", "Python", "Javascript", "MERN"]
+  },
+  {
+    "name": "Ashmit Mehta",
+    "image": "https://avatars.githubusercontent.com/u/112748790",
+    "github": "https://github.com/Ash-codes18",
+    "twitter": "https://twitter.com/ashmitMeht18178",
+    "linkedin": "https://linkedin.com/in/ashmit-mehta",
+    "skills": ["Python", "MySQL", "Javascript"]
+  },
+  {
+    "name": "Priyanshu Singh",
+    "image": "https://avatars.githubusercontent.com/u/107869522",
+    "github": "https://github.com/Priyanshu-su30",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/priyanshu-singh-a7711822b",
+    "skills": ["Java", "Python", "Javascript"]
+  },
+  {
+    "name": "Arnab Barua",
+    "image": "https://avatars.githubusercontent.com/u/113552756",
+    "github": "https://github.com/Arnabhit",
+    "twitter": "https://twitter.com/Arnab991",
+    "linkedin": "https://www.linkedin.com/in/arnab-barua-a66a4b220",
+    "skills": ["AI/ML"]
+  },
+  {
+    "name": "Shail Patel",
+    "image": "https://avatars.githubusercontent.com/u/126716491",
+    "github": "https://github.com/shail-patel-321",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/shail-patel-058200284",
+    "skills": ["Linux"]
+  },
+  {
+    "name": "Hitesh Kumar",
+    "image": "https://avatars.githubusercontent.com/u/133000424",
+    "github": "https://github.com/hiteshverse",
+    "twitter": "https://twitter.com/hiteshverse",
+    "linkedin": "https://www.linkedin.com/in/hiteshverse",
+    "skills": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "name": "Charles Luguda",
+    "image": "https://avatars.githubusercontent.com/u/133863940",
+    "github": "https://github.com/charlesluguda",
+    "twitter": "https://twitter.com/Luguda2",
+    "linkedin": "https://www.linkedin.com/in/charles-luguda-663689214",
+    "skills": ["HTML/CSS/JS", "Bootstrap", "Python"]
+  },
+  {
+    "name": "Dheeraj Sara",
+    "image": "https://avatars.githubusercontent.com/u/974020",
+    "github": "https://github.com/SaranaDheeraj",
+    "twitter": "https://twitter.com/DheerajSarana",
+    "linkedin": "https://www.linkedin.com/in/sarana-dheeraj-990594228",
+    "skills": ["HTML/CSS/JS", "Java"]
+  },
+  {
+    "name": "Rohith Pradeep",
+    "image": "https://avatars.githubusercontent.com/u/142139740",
+    "github": "https://github.com/ROHITTTTZ",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["HTML/CSS", "C", "Java"]
+  },
+  {
+    "name": "Joseph Gonzalez",
+    "image": "https://avatars.githubusercontent.com/u/29137137",
+    "github": "https://github.com/Josephglz",
+    "twitter": "https://twitter.com/JosephGlz99",
+    "linkedin": "https://www.linkedin.com/in/JosephGlz",
+    "skills": ["NodeJS", "Angular", "Flutter"]
+  },
+    {
+    "name": "Aman Pathan",
+    "image": "https://avatars.githubusercontent.com/u/76259086",
+    "github": "https://github.com/amanpathan",
+    "twitter": "https://twitter.com/aman_a_pathan",
+    "linkedin": "https://www.linkedin.com/in/aman-pathan-a006ab202",
+    "skills": ["MERN", "C++", "Python"]
+  },
+    {
+    "name": "Kishlay Krishna",
+    "image": "https://avatars.githubusercontent.com/u/69421373",
+    "github": "https://github.com/KrisJarvis",
+    "twitter": "https://twitter.com/_Kris_0_0_",
+    "linkedin": "https://www.linkedin.com/in/kishlay-krishna-629b90222",
+    "skills": ["Javascript", "React", "Python"]
+  },
+  {
+    "name": "Ankit Gadling",
+    "image": "https://avatars.githubusercontent.com/u/86833325",
+    "github": "https://github.com/ankitgadling",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["Python", "Django", "Bootstrap"]
+  },
+  {
+    "name": "Maida",
+    "image": "https://avatars.githubusercontent.com/u/81500487",
+    "github": "https://github.com/maida12",
+    "twitter": "",
+    "linkedin": "https://pk.linkedin.com/in/maida-shahid-b26710191",
+    "skills": ["MERN", "C++", "Javascript"]
+  },
+  {
+    "name": "Abayomi Ogunnusi",
+    "image": "https://avatars.githubusercontent.com/u/70065792",
+    "github": "https://github.com/drsimplegraffiti",
+    "twitter": "https://twitter.com/drsimplegraffi1",
+    "linkedin": "https://www.linkedin.com/in/abayomi-ogunnusi-974826141",
+    "skills": [".NET", "Javascript", "SQL"]
+  },
+  {
+    "name": "Dhiman Nayak",
+    "image": "https://https://avatars.githubusercontent.com/u/121615795",
+    "github": "https://www.github.com/Dhiman-Nayak",
+    "twitter": "https://twitter.com/DhimanNayak03",
+    "linkedin": "https://www.linkedin.com/in/dhimannayak",
+    "skills": ["Javascript", "NodeJS", "MongoDB"]
+  },
+  {
+    "name": "Vinay S",
+    "image": "https://avatars.githubusercontent.com/u/124019116",
+    "github": "https://github.com/vinay-s36",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["HTML/CSS/JS", "Python", "Java"]
+  },
+  {
+    "name": "Vxnsin",
+    "image": "https://avatars.githubusercontent.com/u/51481323",
+    "github": "https://github.com/vxnsin",
+    "twitter": "https://twitter.com/_Vensin",
+    "linkedin": "",
+    "skills": ["Java", "MySQL", "Lua"]
+  },
+  {
+    "name": "Afraz Khan",
+    "image": "https://avatars.githubusercontent.com/u/60065049",
+    "github": "https://github.com/Afraz0Khan",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/akhan-swe",
+    "skills": ["Spring", "NodeJS", "MongoDB"]
+  },
+  {
+    "name": "Harsh Chauhan",
+    "image": "https://avatars.githubusercontent.com/u/112640334",
+    "github": "https://github.com/HarshProj",
+    "twitter": "https://twitter.com/HarshChauh84647",
+    "linkedin": "https://www.linkedin.com/in/harsh-chauhan-0a34b01a0",
+    "skills": ["C++", "Javascript"]
+  },
+  {
+    "name": "Gurudayal Maurya",
+    "image": "https://cdn.dribbble.com/users/230290/screenshots/14088602/media/53ec8861512124d0f132a3f8b69e6a50.jpg",
+    "github": "https://github.com/lucky-89",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/gurudayal-maurya-971999242",
+    "skills": ["React", "C++", "Python"]
+  },
+  {
+    "name": "Vishal Singh",
+    "image": "https://avatars.githubusercontent.com/u/104795331",
+    "github": "https://github.com/Vishal35679",
+    "twitter": "https://twitter.com/TeslaVishal",
+    "linkedin": "https://www.linkedin.com/in/vishalsingh35679",
+    "skills": ["C++", "Python", "AI/ML"]
+  },
+  {
+    "name": "Udayan Sharma",
+    "image": "https://avatars.githubusercontent.com/u/122338009",
+    "github": "https://github.com/hollermay",
+    "twitter": "https://twitter.com/UdayanShar29025",
+    "linkedin": "https://www.linkedin.com/in/udayan-s-7a8600246",
+    "skills": ["Javascript", "AI/ML", "Python"]
+  },
+  {
+    "name": "Olatunji-Aresa Ariyo",
+    "image": "https://avatars.githubusercontent.com/u/108690633",
+    "github": "https://github.com/ariyoaresa",
+    "twitter": "https://x.com/ariyoaresa",
+    "linkedin": "https://ng.linkedin.com/in/ariyo-aresa-880921213",
+    "skills": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "name": "Garima",
+    "image": "https://avatars.githubusercontent.com/u/110885902",
+    "github": "https://github.com/gams0318",
+    "twitter": "https://twitter.com/Garima_0318",
+    "linkedin": "https://www.linkedin.com/in/garima-joshi-614b38227",
+    "skills": ["HTML", "CSS", "React"]
+  },
+  {
+    "name": "Anurag Kumar",
+    "image": "https://avatars.githubusercontent.com/u/115798514",
+    "github": "https://github.com/anurag21213",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/anurag-kumar-057796234?",
+    "skills": ["Javascript", "NodeJS", "React"]
+  },
+  {
+    "name": "Sunil",
+    "image": "https://avatars.githubusercontent.com/u/37134658",
+    "github": "https://github.com/sunildipun",
+    "twitter": "https://x.com/last_seen_404",
+    "linkedin": "https://www.linkedin.com/in/sunilbehera95",
+    "skills": ["HTML/CSS", "Javascript", "React"]
+  },
+  {
+    "name": "Jan-FCloud",
+    "image": "https://avatars.githubusercontent.com/u/47220014",
+    "github": "https://github.com/Jan-Fcloud",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["C++", "Javascript", "VR"]
+  },
+  {
+    "name": "Deepak Verma",
+    "image": "https://avatars.githubusercontent.com/u/108222277",
+    "github": "https://github.com/jerrygood24",
+    "twitter": "https://twitter.com/iam_deepak24",
+    "linkedin": "https://www.linkedin.com/in/itz-deepak",
+    "skills": ["C++", "Javascript", "Python"]
+  },
+  {
+    "name": "Shreyansh Khaitan",
+    "image": "https://avatars.githubusercontent.com/u/90243443",
+    "github": "https://github.com/shrey141102",
+    "twitter": "https://twitter.com/__shrey__14",
+    "linkedin": "https://www.linkedin.com/in/shreyansh-khaitan",
+    "skills": ["Java", "Python","AI/ML"]
+  },
+  {
+    "name": "Deren Losel",
+    "image": "https://avatars.githubusercontent.com/u/146862335",
+    "github": "https://github.com/DerenLosel",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/DerenLosel",
+    "skills": ["Python", "React", "MongoDB"]
+  },
+  {
+    "name": "Piyush",
+    "image": "https://avatars.githubusercontent.com/u/83646370",
+    "github": "https://github.com/zirea3l",
+    "twitter": "https://twitter.com/R1ann0n",
+    "linkedin": "https://www.linkedin.com/in/piyush-sharma-zirea3l",
+    "skills": ["WebDev"]
+  },
+  {
+    "name": "Sammie",
+    "image": "https://avatars.githubusercontent.com/u/125539937",
+    "github": "https:/github.com/1AmSammi3",
+    "twitter": "https://x.com/1_Am_Sammie",
+    "linkedin": "",
+    "skills": ["HTML/CSS/JS", "React"]
+  },
+  {
+    "name": "Kirtesh Admute",
+    "image": "https://avatars.githubusercontent.com/u/59656771",
+    "github": "https://github.com/iKirtesh",
+    "twitter": "https://twitter.com/Akirtesh",
+    "linkedin": "https://www.linkedin.com/in/iKirtesh",
+    "skills": ["Java", "HTML/CSS/JS", "React"]
+  },
+  {
+    "name": "Rushikesh Shelar",
+    "image": "https://avatars.githubusercontent.com/u/112684561",
+    "github": "https://github.com/RushikeshShelar",
+    "twitter": "https://twitter.com/Rushishelar2468",
+    "linkedin": "https://www.linkedin.com/in/rushikeshshelar",
+    "skills": ["React", "ExpressJS", "MongoDB"]
+  },
+  {
+    "name": "Anurag Srivastav",
+    "image": "https://avatars.githubusercontent.com/u/98267696",
+    "github": "https://github.com/anurag-327",
+    "twitter": "https://twitter.com/itsAnurag_sri",
+    "linkedin": "https://www.linkedin.com/in/anuragsr327",
+    "skills": ["NextJS", "C++", "ExpressJS"]
+  },
+  {
+    "name": "Ashish Khare",
+    "image": "https://avatars.githubusercontent.com/u/44055846",
+    "github": "https://github.com/ashishk1331",
+    "twitter": "https://twitter.com/AshishK1331",
+    "linkedin": "https://www.linkedin.com/in/ashishk1331",
+    "skills": ["HTML", "Javascript", "Python"]
+  },
+  {
+    "name": "Khushi Shroff",
+    "image": "https://avatars.githubusercontent.com/u/86292101",
+    "github": "https://github.com/Ks103",
+    "twitter": "https://twitter.com/khushishroff2",
+    "linkedin": "https://www.linkedin.com/in/khushi-shroff-70b049211",
+    "skills": ["HTML/CSS/JS", "UI/UX", "React"]
+  },
+  {
+    "name": "Rudy",
+    "image": "https://avatars.githubusercontent.com/u/46790388",
+    "github": "https://github.com/rudy3333",
+    "twitter": "https://x.com/_rudy3_",
+    "linkedin": "https://discordapp.com/users/1042539859245547550",
+    "skills": ["Python", "SQL", "PHP"]
+  },
+  {
+    "name": "Michael Ortiz",
+    "image": "https://avatars.githubusercontent.com/u/57331815",
+    "github": "https://github.com/MichaelDeMattos",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/michael-ortiz-57690a17a",
+    "skills": ["NodeJS", "Python", "HTML/CSS"]
+  },
+  {
+    "name": "Emmanuella Okafor",
+    "image": "https://avatars.githubusercontent.com/u/96059812",
+    "github": "https://github.com/nuelladev",
+    "twitter": "https://twitter.com/emmanuellaoka11",
+    "linkedin": "https://www.linkedin.com/in/emmanuella-o",
+    "skills": ["React", "MySQL", "HTML/CSS"]
+  },
+  {
+    "name": "Mehmet Salih Bozkir",
+    "image": "https://avatars.githubusercontent.com/u/150898451",
+    "github": "https://github.com/MehmetBozkir",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/mehmet-salih-bozk%C4%B1r",
+    "skills": ["HTML/CSS/JS", "Typescript", "React"]
+  },
+  {
+    "name": "Reayz",
+    "image": "https://avatars.githubusercontent.com/u/21260946",
+    "github": "https://github.com/Reayz",
+    "twitter": "https://twitter.com/Reayz77",
+    "linkedin": "https://www.linkedin.com/in/Reayz",
+    "skills": ["ASP.NET", "Javascript", "MS SQL"]
+  },
+  {
+    "name": "Chirag Aggarwal",
+    "image": "https://avatars.githubusercontent.com/u/110609663",
+    "github": "https://github.com/ChiragAgg5k",
+    "twitter": "https://twitter.com/ChiragAgg5k",
+    "linkedin": "https://www.linkedin.com/in/chiragagg5k",
+    "skills": ["Python", "React", "MongoDB"]
+  },
+  {
+    "name": "Srinanda Das",
+    "image": "https://avatars.githubusercontent.com/u/103207079",
+    "github": "https://github.com/XNOR8",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/srinanda-das-36813524b",
+    "skills": ["HTML/CSS/JS", "Java", "MySQL"]
+  },
+  {
+    "name": "Atharvan Pohnerkar",
+    "image": "https://avatars.githubusercontent.com/u/123322068",
+    "github": "https://github.com/Atharvan2004",
+    "twitter": "https://twitter.com/AtharvanPo53043",
+    "linkedin": "https://www.linkedin.com/in/atharvan-pohnerkar-631740256",
+    "skills": ["MongoDB", "ExpressJS", "CP"]
+  },
+  {
+    "name": "Shiva Prasad",
+    "image": "https://avatars.githubusercontent.com/u/9407019",
+    "github": "https://github.com/shiv19",
+    "twitter": "https://x.com/multishiv19",
+    "linkedin": "https://linkedin.com/in/multishiv19",
+    "skills": ["Javascript","Kotlin", "VueJS", "AI/ML"]
+  },
+  {
+    "name": "Yash Kumar Shrivas",
+    "image": "https://avatars.githubusercontent.com/u/87111197",
+    "github": "https://github.com/YashkShrivas4491",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126",
+    "skills": ["C++", "React", "Javascript"]
+  },
+  {
+    "name": "Gyan Pratap Singh",
+    "image": "https://avatars.githubusercontent.com/u/98226958",
+    "github": "https://github.com/Gyanthakur",
+    "twitter": "https://twitter.com/gps_96169",
+    "linkedin": "https://www.linkedin.com/in/gyan-pratap-singh-275785236",
+    "skills": ["Javascript", "React", "C++"]
+  },
+  {
+    "name": "Utkarsh Patil",
+    "image": "https://avatars.githubusercontent.com/u/90892046",
+    "github": "https://github.com/utkarsh-009",
+    "twitter": "https://twitter.com/tw_utkarsh",
+    "linkedin": "https://www.linkedin.com/in/utkarsh-patil-0b62a9202",
+    "skills": ["Python", "Javascript", "Dart"]
+  },
+  {
+    "name": "Ahasas Jain",
+    "image": "https://avatars.githubusercontent.com/u/101923456",
+    "github": "https://github.com/Ahasasjain",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/ahasas-jain-b9b88428b",
+    "skills": ["React", "Java", "ExpressJS"]
+  },
+  {
+    "name": "Alit Indrawan",
+    "image": "https://avatars.githubusercontent.com/u/36658186",
+    "github": "https://github.com/Alitindrawan24",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/alitindrawan24",
+    "skills": ["PHP", "Javascript", "Go"]
+  },
+  {
+    "name": "Ralph Rosael",
+    "image": "https://avatars.githubusercontent.com/u/90777662",
+    "github": "https://github.com/coder-ralph",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/ralphrosael",
+    "skills": ["Python", "Javascript", "Arduino"]
+  },
+  {
+    "name": "Loensh",
+    "image": "https://avatars.githubusercontent.com/u/122663422",
+    "github": "https://github.com/Loensh",
+    "twitter": "https://discordapp.com/users/690344196506517544",
+    "linkedin": "",
+    "skills": ["Javascript", "C++", "Go"]
+  },
+  {
+    "name": "Sandeep Kumar Sharma",
+    "image": "https://avatars.githubusercontent.com/u/65103353",
+    "github": "https://github.com/amrahs02",
+    "twitter": "https://twitter.com/amrahs02",
+    "linkedin": "https://www.linkedin.com/in/sandeepsharma2183",
+    "skills": ["HTML/CSS/JS", "React", "TailwindCSS"]
+  },
+  {
+    "name": "Shubham Kamboj",
+    "image": "https://avatars.githubusercontent.com/u/95020337",
+    "github": "https://github.com/Shu4bham",
+    "twitter": "https://twitter.com/Shu4bham",
+    "linkedin": "https://www.linkedin.com/in/Shu4bham",
+    "skills": ["HTML/CSS/JS", "Python", "React"]
+  },
+  {
+    "name": "Balaji Prakasam",
+    "image": "https://avatars.githubusercontent.com/u/92166294",
+    "github": "https://github.com/balajithegr8",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/balaji-prakasam-7a77b822b",
+    "skills": ["C++", "HTML/CSS/JS", "AI/ML"]
+  },
+  {
+    "name": "Kakkerla Manideep",
+    "image": "https://avatars.githubusercontent.com/u/125902846",
+    "github": "https://github.com/Manideep711",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/manideep-kakkerla-529692265",
+    "skills": ["HTML/CSS/JS", "Python", "Java"]
+  },
+  {
+    "name": "Abrar Hussain",
+    "image": "https://avatars.githubusercontent.com/u/136314551",
+    "github": "https://github.com/Abrarlala",
+    "twitter": "https://twitter.com/ABRAR706774",
+    "linkedin": "https://www.linkedin.com/in/mohammad-abrar-610ba124b",
+    "skills": ["Javascript", "React", "Java"]
+  },
+  {
+    "name": "Kanchan Rai",
+    "image": "https://avatars.githubusercontent.com/u/114416916",
+    "github": "https://github.com/kanchanraiii/",
+    "twitter": "https://twitter.com/kanchanraiii",
+    "linkedin": "https://www.linkedin.com/in/kanchan-rai-90271a24a",
+    "skills": ["HTML/CSS", "Python", "C++"]
+  },
+  {
+    "name": "Rohit Roy",
+    "image": "https://avatars.githubusercontent.com/u/68563695",
+    "github": "https://github.com/rohitroy-github",
+    "twitter": "https://twitter.com/rohitroy_R",
+    "linkedin": "https://www.linkedin.com/in/roy-rohit",
+    "skills": ["MERN", "Solidity", "Blockchain"]
+  },
+  {
+    "name": "Sravan Kumar",
+    "image": "https://avatars.githubusercontent.com/u/66896592",
+    "github": "https://github.com/sravangorati2001",
+    "twitter": "https://twitter.com/Sravanthrony",
+    "linkedin": "https://www.linkedin.com/in/sravangorati2001",
+    "skills": ["NodeJS", "React", "MongoDB"]
+  },
+  {
+    "name": "Samuel Peters",
+    "image": "https://avatars.githubusercontent.com/u/65086865",
+    "github": "https://github.com/petsamuel",
+    "twitter": "https://x.com/bieefilled",
+    "linkedin": "https://linkedin.com/in/bieefilled",
+    "skills": ["React", "Typescript", "Python"]
+  },
+  {
+    "name": "Ahnaf Hasan Shifat",
+    "image": "https://avatars.githubusercontent.com/u/81911439",
+    "github": "https://github.com/ah-naf",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/ahnafhasan144",
+    "skills": ["React", "Typescript", "PostgreSQL"]
+  },
+  {
+    "name": "Prashant Jagtap",
+    "image": "https://avatars.githubusercontent.com/u/93985255",
+    "github": "https://github.com/prashantjagtap2909",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["C++"]
+  },
+  {
+    "name": "Atul Gawade",
+    "image": "https://avatars.githubusercontent.com/u/71514760",
+    "github": "https://github.com/gawadeatul",
+    "twitter": "https://twitter.com/gawadeatul27",
+    "linkedin": "https://www.linkedin.com/in/atulgawade",
+    "skills": ["Java", "C#", "PHP"]
+  },
+  {
+    "name": "Nong Snail",
+    "image": "https://avatars.githubusercontent.com/u/56298563",
+    "github": "https://github.com/NongSnail",
+    "twitter": "https://twitter.com/kuroi_01509",
+    "linkedin": "https://www.linkedin.com/in/narisara01509",
+    "skills": ["Python", "SQL"]
+  },
+  {
+    "name": "Ujjwal Gupta",
+    "image": "https://avatars.githubusercontent.com/u/107796383",
+    "github": "https://github.com/heyujjwal",
+    "twitter": "https://twitter.com/UJJWALG55043670",
+    "linkedin": "https://www.linkedin.com/in/ujjwal-gupta-a595811b9",
+    "skills": ["NextJS", "C++"]
+  },
+  {
+    "name": "Astha Tripathi",
+    "image": "https://avatars.githubusercontent.com/u/79215705",
+    "github": "https://github.com/Astha369",
+    "twitter": "https://twitter.com/t_astha027",
+    "linkedin": "https://www.linkedin.com/in/asthatripathi",
+    "skills": ["C++", "Flutter"]
+  },
+  {
+    "name": "Shashwat Bajpai",
+    "image": "https://avatars.githubusercontent.com/u/112643512",
+    "github": "https://github.com/Bajpai25",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/shashwat-bajpai-73a916234",
+    "skills": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "name": "Piyush Kumar Das",
+    "image": "https://avatars.githubusercontent.com/u/96428820",
+    "github": "https://github.com/piyushkdas0611",
+    "twitter": "https://twitter.com/Piyush_k_das",
+    "linkedin": "https://linkedin.com/in/piyush-k-das",
+    "skills": ["HTML/CSS/JS", "React", "ExpressJS"]
+  },
+  {
+    "name": "Akshat Mishra",
+    "image": "https://avatars.githubusercontent.com/u/106366272",
+    "github": "https://github.com/akshatmishra25",
+    "twitter": "https://twitter.com/AkshatMx10",
+    "linkedin": "https://www.linkedin.com/in/akshat-mishra-702694226",
+    "skills": ["Java", "Python", "React"]
+  },
+  {
+    "name": " 「 」Data ",
+    "image": "https://avatars.githubusercontent.com/u/42356916",
+    "github": "https://github.com/DataGamingYT",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["HTML/CSS/JS", "Java", "Python"]
+  },
+  {
+    "name": "SyntaxSmiler03",
+    "image": "https://avatars.githubusercontent.com/u/144527105",
+    "github": "https://github.com/SyntaxSmiler03",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["HTML/CSS/JS", "Java", "C/C++", "Python"]
+  },
+  {
+    "name": "Srikar",
+    "image": "https://avatars.githubusercontent.com/u/107094861",
+    "github": "https://github.com/Srikar-C",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["MERN", "Python", "Django"]
+  },
+  {
+    "name": "Harshal Kahar",
+    "image": "https://avatars.githubusercontent.com/u/93152436",
+    "github": "https://github.com/harshal255",
+    "twitter": "https://harshalkahar.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/harshal-kahar-4115a321b",
+    "skills": ["NodeJS", "NextJS", "TailwindCSS"]
+  },
+  {
+    "name": "Dibya Jyoti Dutta",
+    "image": "https://avatars.githubusercontent.com/u/123192035",
+    "github": "https://github.com/Dibya112",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/dibya-jyoti-dutta-87378a240",
+    "skills": ["ExpressJS", "Javascript", "C++"]
+  },
+  {
+    "name": "Shrimad Bhagwat",
+    "image": "https://avatars.githubusercontent.com/u/51125208",
+    "github": "https://github.com/Shrimad-Bhagwat",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/shrimad-bhagwat-a7a879201",
+    "skills": ["C++", "Flutter"]
+  },
+  {
+    "name": "Anmol Anand",
+    "image": "https://avatars.githubusercontent.com/u/76034132",
+    "github": "https://github.com/anmol420",
+    "twitter": "https://twitter.com/anmol___420",
+    "linkedin": "https://www.linkedin.com/in/anmol420",
+    "skills": ["Java", "Javascript", "Flutter"]
+  },
+  {
+    "name": "Muhamad Dian Rahendra",
+    "image": "https://avatars.githubusercontent.com/u/73350352",
+    "github": "https://github.com/Muanra217",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/muanra217",
+    "skills": ["JavaScript", "Mendix", "React"]
+  },
+  {
+    "name": "Vivek Gurudutt",
+    "image": "https://avatars.githubusercontent.com/u/59449606",
+    "github": "https://github.com/VivekGuruduttK28",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/vivek-gurudutt-k-466936267",
+    "skills": ["Java", "Python", "C++"]
+  },
+  {
+    "name": "Guilherme Berson",
+    "image": "https://avatars.githubusercontent.com/u/17513306",
+    "github": "https://github.com/KhanSado",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/guilhermeberson",
+    "skills": ["Java", "Kotlin"]
+  },
+  {
+    "name": "Yash Sinha",
+    "image": "https://avatars.githubusercontent.com/u/96681774",
+    "github": "https://github.com/yash19sinha",
+    "twitter": "https://twitter.com/SinhaYash62471",
+    "linkedin": "https://www.linkedin.com/in/yash-sinha-09989621a",
+    "skills": ["NextJS", "TailwindCSS", "Javascript"]
+  },
+  {
+    "name": "Prasanna Donga",
+    "image": "https://avatars.githubusercontent.com/u/94883909",
+    "github": "https://github.com/prasanna1225",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["HTML/CSS/JS", "React", "NodeJS"]
+  },
+  {
+    "name": "Aziz Arif Rizaldi",
+    "image": "https://avatars.githubusercontent.com/u/43601207",
+    "github": "https://github.com/azizarizaldi",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/azizarizaldi",
+    "skills": ["WebDev", "AppDev"]
+  },
+  {
+    "name": "YouFoundAlpha",
+    "image": "https://avatars.githubusercontent.com/u/86548581",
+    "github": "https://github.com/YouFoundAlpha",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["NodeJS", "Javascript", "HTML"]
+  },
+  {
+    "name": "Ayush Anshu",
+    "image": "https://avatars.githubusercontent.com/u/112506922",
+    "github": "https://github.com/ayush24k",
+    "twitter": "https://twitter.com/ayushanshuu",
+    "linkedin": "https://linkedin.com/in/ayushanshu",
+    "skills": ["MERN","C++", "AI/ML"]
+  },
+  {
+    "name": "Farhan Muzaffar",
+    "image": "https://avatars.githubusercontent.com/u/119163347",
+    "github": "https://github.com/Mdfarhan9304",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/farhan-muzaffar-039994218",
+    "skills": ["React", "Javascript", "HTML"]
+  },
+  {
+    "name": "Guilherme Orcezi",
+    "image": "https://avatars.githubusercontent.com/u/29787610",
+    "github": "https://github.com/guilhermeorcezi",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/guilhermeorcez",
+    "skills": ["React", "React Native", "NodeJS"]
+  },
+  {
+    "name": "Tanakorn",
+    "image": "https://avatars.githubusercontent.com/u/24265584",
+    "github": "https://github.com/Tanakornl3oom",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["NodeJS", "Javascript", "HTML"]
+  },
+  {
+    "name": "Bilal Mirza",
+    "image": "https://avatars.githubusercontent.com/u/84387676",
+    "github": "https://github.com/bilalmirza74",
+    "twitter": "https://webdevfreelancer.me",
+    "linkedin": "",
+    "skills": ["MERN", "DevOps", "Python"]
+  },
+  {
+    "name": "Irfan Habeeeb ",
+    "image": "https://avatars.githubusercontent.com/u/110285678",
+    "github": "https://github.com/habeebputhiyakath",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/irfanhabeeb1",
+    "skills": ["Flutter"]
+  },
+  {
+    "name": "Alekhya Dharam",
+    "image": "https://avatars.githubusercontent.com/u/128917215",
+    "github": "https://github.com/Alekhya-Dharam",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/alekhya-dharam-62873322b",
+    "skills": ["Java", "NodeJS", "ExpressJS"]
+  },
+  {
+    "name": "K Koyal",
+    "image": "https://avatars.githubusercontent.com/u/101511737",
+    "github": "https://github.com/kondapalli19",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["MERN", "Java", "Python"]
+  },
+  {
+    "name": "Uuphoria2",
+    "image": "https://avatars.githubusercontent.com/u/123761856",
+    "github": "https://github.com/uuphoria2",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["NodeJS", "PostgreSQL"]
+  }
+]

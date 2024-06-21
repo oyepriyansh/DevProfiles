@@ -6,32 +6,23 @@ A fork is a local copy of the repository that is on your GitHub account, and you
 [**Click here to fork the repository.**](https://github.com/oyepriyansh/DevProfiles/fork)
 
 ### 2. Add profile code snippet
-add following code to HTML `index.html` inside the `<div class="container">` `</div>`
+add following JSON code to `data.json` file
 
-```html
-        <div class="profile">
-            <div class="pfp"><img src="[YOUR IMAGE URL]" alt="User Image"></div>
-            <h3 class="name">Your Name</h3>
-            <div class="skills">
-                <span class="skill">[SKILL-1]</span>
-                <span class="skill">[SKILL-2]</span>
-                <span class="skill">[SKILL-3]</span>
-            </div>
-            <div class="social">
-                <a href="[YOUR GITHUB URL]" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="[YOUR X/TWITTER URL]" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="[YOUR LINKEDIN URL]" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </div>
+```json
+  {
+    "name": "YOUR_NAME",
+    "image": "IMAGE_url",
+    "github": "YOUR GITHUB URL",
+    "twitter": "YOUR X/TWITTER URL",
+    "linkedin": "YOUR LINKEDIN URL",
+    "skills": ["SKILL-1", "SKILL-2", "SKILL-3"]
+  }
 ```
-
-> [!IMPORTANT]  
-> Don't add your profile at the beginning or end of the file. Put it anywhere in between, this is to avoid conflicts whiile having rush in Pull Requests
 
 ### 3. Fill Placeholder
 Change/Replace the placeholders with your image and profiles urls
-  - [IMAGE-URL] with your image URL
   - [YOUR_NAME] with your name
+  - [IMAGE-URL] with your image URL
   - [SKILL-1], [SKILL-2], [SKILL-3] with your skills
   - [YOUR GITHUB URL], [YOUR X/TWITTER URL] & [YOUR LINKEDIN URL] with your Github, X/Twitter & LinkedIn profile URL repectively.
 

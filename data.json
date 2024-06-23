@@ -958,6 +958,13 @@
     "twitter": "",
     "linkedin": "https://linkedin.com/in/emmanpbarrameda",
     "skills": ["Java", "C#", "VB.Net", "HTML/CSS/Javascript", "PHP", "Laravel"]
+  },
+  {
+    "name": "Aditya Raj",
+    "image": "https://avatars.githubusercontent.com/u/101452242",
+    "github": "https://github.com/aditya8Raj",
+    "twitter": "https://x.com/nerdinbiz",
+    "linkedin": "",
+    "skills": ["HTML/CSS/JS", "ReactJS", "NextJS", "Python"]
   }
-
 ]

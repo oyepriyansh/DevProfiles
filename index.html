@@ -25,35 +25,25 @@
     <script src="https://oyepriyansh.pages.dev/cdnjs/analytics/devprofiles.js" defer></script>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1 class="col">DevProfiles</h1>
-        <div class="wrapper-toggle-button col">
-            <input type="checkbox" id="input-toggle-button">
-            <label for="input-toggle-button" class="toggle-mode">
-                <div class="mode-toggle"></div>
-            </label>
-        </div>
-    </div>
-
-    <div class="search">
-        <input type="text" id="searchInput" placeholder="Search by name...">
-    </div>
-
-    <div class="addprofilebutton">
-        <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/CONTRIBUTING.md" target="_blank">
-            <button class="add-col">
-                <span>Add your Profile &nbsp;</span>
-                <i class="fa-sharp fa-solid fa-user-plus"></i>
-            </button>
-        </a>
-    </div>
-
-    <div class="no-profile">No Profile Found</div>
-
-    <div class="container"></div>
-
+    </header>
+    <main>
+        <section class="search">
+            <input type="text" id="searchInput" placeholder="Search by name...">
+        </section>
+        <section class="addprofilebutton">
+            <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/CONTRIBUTING.md" target="_blank">
+                <button class="add-col">
+                    <span>Add your Profile &nbsp;</span>
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                </button>
+            </a>
+        </section>
+        <section class="no-profile">No Profile Found</section>
+        <section class="container"></section>
+    </main>
     <hr>
-
     <footer>
         <div class="fcontainer">
             <div class="fabout">
@@ -63,21 +53,19 @@
                 <a href="https://github.com/oyepriyansh/DevProfiles" target="_blank">GitHub</a>
                 <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/LICENSE" target="_blank">License</a>
             </div>
-        </div>
-        <div class="ficons">
-            <a href="https://github.com/oyepriyansh" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://x.com/oyepriyansh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://linkedin.com/in/oyepriyansh" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <div class="ficons">
+                <a href="https://github.com/oyepriyansh" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/oyepriyansh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://linkedin.com/in/oyepriyansh" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
         </div>
         <p class="copyright">Copyright © <span id="currentYear"></span> DevProfiles | All rights reserved.</p>
     </footer>
-
     <button id="backToTopBtn" class="top-btn">
         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="arrow-icon">
             <path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" fill="white" />
         </svg>
     </button>
-
     <script src="scripts/app.js" defer></script>
 </body>
 </html>

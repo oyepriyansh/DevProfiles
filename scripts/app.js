@@ -37,7 +37,7 @@ const loadProfiles = async () => {
       <div class="pfp">
         <img src="${profile.image}" alt="User Image" onerror="this.onerror=null; this.src='${defaultImage}';">
       </div>
-      <h3 class="name">${profile.name}</h3>
+      <h2 class="name">${profile.name}</h2>
       <div class="skills">${skills}</div>
       <div class="social">${social}</div>
     `;
@@ -55,48 +55,6 @@ const shuffleArray = (array) => {
 };
 
 loadProfiles();
-
-
-// dark light mode 
-
-const colorSwitch = document.getElementById("input-toggle-button");
-colorSwitch.addEventListener("click", checkMode);
-
-const btn = document.querySelector('.add-col');
-
-function checkMode() {
-  console.log("checking...");
-  if (colorSwitch.checked) {
-    console.log("dark on");
-    darkModeOn();
-    btn.style.color = "black";
-    btn.addEventListener('mouseover', () => {
-      btn.style.color = "white";
-    })
-    btn.addEventListener('mouseout', () => {
-      btn.style.color = "black";
-    })
-  } else {
-    console.log("dark off");
-    darkModeOff();
-    btn.style.color = "white";
-    btn.addEventListener('mouseout', () => {
-      btn.style.color = "white";
-    })
-
-    btn.addEventListener('mouseover', () => {
-      btn.style.color = "white";
-    })
-  }
-}
-
-function darkModeOn() {
-  document.body.classList.add("dark-mode");
-}
-
-function darkModeOff() {
-  document.body.classList.remove("dark-mode");
-}
 
 
 //search 

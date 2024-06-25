@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@200&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 :root {
   --clr-background: #121212;
   --clr-secondary: #292929;
@@ -31,7 +30,7 @@
 body {
   background-color: var(--clr-background);
   color: var(--clr-gray);
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -54,7 +53,8 @@ body {
 h1 {
   padding: 20px;
   font-size: 36px;
-  font-family: "PT Serif", serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .container {
@@ -68,7 +68,7 @@ h1 {
 
 .no-profile {
   padding: 20px;
-  font-family: "PT Serif", serif;
+  font-family: "Poppins", sans-serif;
   display: none;
 }
 
@@ -100,11 +100,13 @@ h1 {
 
 .name {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .skills {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -205,6 +207,7 @@ footer {
 }
 
 .ficons a {
+  text-decoration: none;
   color: #3498db;
   margin: 5px 10px;
   display: inline-flex;
@@ -214,15 +217,17 @@ footer {
   margin-right: 5px;
 }
 .ficons a:hover {
-  text-decoration: underline;
+  color: #bed8e4;
 }
 
 .flinks a {
+  text-decoration: none;
   color: #3498db;
   margin: 5px 0;
 }
 .flinks a:hover {
   text-decoration: underline;
+  color: #bed8e4;
 }
 
 .copyright {

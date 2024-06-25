@@ -37,7 +37,7 @@ const loadProfiles = async () => {
       <div class="pfp">
         <img src="${profile.image}" alt="User Image" onerror="this.onerror=null; this.src='${defaultImage}';">
       </div>
-      <h3 class="name">${profile.name}</h3>
+      <h2 class="name">${profile.name}</h2>
       <div class="skills">${skills}</div>
       <div class="social">${social}</div>
     `;

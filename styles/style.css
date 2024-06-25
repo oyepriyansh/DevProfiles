@@ -48,13 +48,8 @@ body {
 }
 
 .col {
-  /* flex: 50% */
-  display: flex;
+  display: block;
   flex: 50%;
-}
-
-.add-col {
-  margin-left: 25px;
 }
 .add-col:hover {
   background-color: rgb(61, 59, 59);
@@ -92,7 +87,6 @@ h1 {
   margin: 20px;
   width: calc(33.33% - 40px);
   text-align: center;
-  /* transition: background-color 0.3s ease; */
   transform: scale(1);
   transition-duration: 1s;
   display: flex;
@@ -104,7 +98,7 @@ h1 {
 .profile:hover {
   background-color: var(--clr-profile-hover);
   transform: scale(1.1);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.1s ease-in-out;
 }
 
 .pfp img {
@@ -211,67 +205,6 @@ button {
 
 .addprofilebutton {
     display: inline-block;
-}
-
-.dark-mode {
-  --clr-background: #ffffff;
-  --clr-secondary: #f0f0f0;
-  --clr-profile-hover: #d4d4d4;
-  --clr-tertiary: #f9f9f9;
-  --clr-base: #ffffff;
-  --clr-search-shadow: rgba(0, 0, 0, 0.2);
-  --clr-search-focus: rgba(0, 0, 0, 0.5);
-  --clr-gray: #000000;
-}
-
-.wrapper-toggle-button {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 40px;
-}
-
-.toggle-mode {
-  width: 4em;
-  height: 2em;
-  border-radius: 8px;
-  background: var(--clr-secondary);
-  border: 2px solid var(--clr-gray);
-  position: absolute;
-  cursor: pointer;
-}
-
-.mode-toggle {
-  width: 1.4em;
-  height: 1.4em;
-  background: var(--clr-gray);
-  position: absolute;
-  border-radius: 6px;
-  top: 0.2em;
-  left: 0.25em;
-  cursor: pointer;
-  transition: all 250ms ease-in-out;
-}
-
-.toggle-mode::before {
-  content: "Dark mode";
-  position: absolute;
-  display: inline-block;
-  left: -6em;
-  padding-right: 1em;
-  top: 0.4em;
-}
-
-#input-toggle-button:checked ~ label .mode-toggle {
-  transform: translatex(1.8em);
-}
-
-#input-toggle-button:checked ~ .toggle-mode::before {
-  content: "Light mode";
-}
-
-#input-toggle-button {
-  display: none;
 }
 
 footer {

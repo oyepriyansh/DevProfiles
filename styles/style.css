@@ -50,7 +50,6 @@ h1 {
   padding: 20px 20px 20px 5px;
   font-size: 36px;
   font-weight: 500;
-  display: inline;
 }
 
 .container {
@@ -73,7 +72,6 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   min-height: 350px;
-  transition: transform 1s;
 }
 .profile:hover {
   background-color: #333333;
@@ -120,7 +118,7 @@ h1 {
 }
 
 .social a {
-  color: var(--clr-gray);
+  color: #fff;
   margin: 0 10px;
   font-size: 24px;
   transition: color 0.3s, font-size 0.3s;
@@ -151,7 +149,7 @@ button {
   border: none;
   border-radius: 5px;
   background-color: #1e1e1e;
-  color: var(--clr-gray);
+  color: #fff;
   font-size: 16px;
   box-shadow: 0px 0px 5px rgba(226, 226, 226, 0.938);
 }
@@ -189,7 +187,7 @@ footer {
   animation: bounce 2s infinite ease-in-out;
 }
 .arrow-icon > path {
-  fill: var(--clr-gray);
+  fill: #fff;
 }
 
 @keyframes bounce {

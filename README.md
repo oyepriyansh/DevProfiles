@@ -1,5 +1,7 @@
 <h1 align="center">DevProfiles - List Your Developer Profile.</h1>
 
+[![](/assets/devprofiles_preview.png)](https://devprofiles.is-an.app)
+
 ## ❗ About
 
 DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.

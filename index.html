@@ -15,7 +15,6 @@
     <meta name="twitter:title" content="DevProfiles - List Your Developer Profile">
     <meta name="twitter:description" content="DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.">
     <meta name="twitter:image" content="https://devprofiles.is-an.app/assets/devprofiles.jpg">
-    <meta name="github" content="https://github.com/oyepriyansh/DevProfiles">
     <meta name="google-site-verification" content="m27Gj2zQkiICZcH_q4TunZj7cTmPjH1bi0EJUnMLOJw">
     <link rel="canonical" href="https://devprofiles.is-an.app">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
@@ -25,17 +24,18 @@
     <script src="https://oyepriyansh.pages.dev/cdnjs/analytics/devprofiles.js" defer></script>
 </head>
 <body>
-    <header class="header">
-        <h1 class="col">DevProfiles</h1>
+    <header>
+        <p class="logo"></p>
+        <h1><span id="Dev">Dev</span>Profiles</h1>
     </header>
     <main>
         <section class="search">
-            <input type="text" id="searchInput" placeholder="Search by name...">
+            <input type="text" id="searchInput" placeholder="Search by name or skill...">
         </section>
-        <section class="addprofilebutton">
+        <section>
             <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/CONTRIBUTING.md" target="_blank">
                 <button class="add-col">
-                    <span>Add your Profile &nbsp;</span>
+                    Add your Profile &nbsp;
                     <i class="fa-sharp fa-solid fa-user-plus"></i>
                 </button>
             </a>
@@ -45,26 +45,37 @@
     </main>
     <hr>
     <footer>
-        <div class="fcontainer">
-            <div class="fabout">
+        <div class="footer-content">
+            <div class="about">
+                <p class="logo"></p>
                 <p>DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.</p>
             </div>
             <div class="flinks">
-                <a href="https://github.com/oyepriyansh/DevProfiles" target="_blank">GitHub</a>
-                <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/LICENSE" target="_blank">License</a>
-            </div>
-            <div class="ficons">
-                <a href="https://github.com/oyepriyansh" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://x.com/oyepriyansh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://linkedin.com/in/oyepriyansh" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <div>
+                    <p>Documentation</p>
+                    <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/CONTRIBUTING.md" target="_blank">Contributing Guide</a>
+                    <a href="#" target="_blank">How to add profile?</a>
+                </div>
+                <div>
+                    <p>License</p>
+                    <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/LICENSE" target="_blank">The Unlicense</a>
+                    <a href="https://github.com/oyepriyansh/DevProfiles/blob/main/CODE_OF_CONDUCT.md" target="_blank">Code of Conduct</a>
+                </div>
+                <div class="fbtn">
+                    <a href="https://github.com/oyepriyansh/DevProfiles" target="_blank" id="star">Star us ⭐</a>
+                    <a href="https://github.com/sponsors/oyepriyansh" target="_blank" id="sponsor">Sponsor 💖</a>
+                </div>
             </div>
         </div>
-        <p class="copyright">Copyright © <span id="currentYear"></span> DevProfiles | All rights reserved.</p>
+        <div class="ficons">
+            <a href="https://x.com/oyepriyansh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/oyepriyansh" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/oyepriyansh" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">© <span id="currentYear"></span> DevProfiles | All rights reserved.</p>
     </footer>
     <button id="backToTopBtn" class="top-btn">
-        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="arrow-icon">
-            <path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" fill="white" />
-        </svg>
+        <i class="fa-solid fa-arrow-up"></i>
     </button>
     <script src="scripts/app.js" defer></script>
 </body>

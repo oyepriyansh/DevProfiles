@@ -68,9 +68,10 @@ searchInput.addEventListener('keyup', () => {
 
   profiles.forEach((profile) => {
     const profileName = profile.querySelector('.name').innerText.trim().toLowerCase();
+    const skills = profile.querySelector('.skills').textContent.toLowerCase();
 
-    if (profileName.includes(searchTerm)) {
-      profile.style.display = 'flex'; 
+    if (profileName.includes(searchTerm) || skills.includes(searchTerm)) {
+    profile.style.display = 'flex'; 
       visibleProfiles++;
     } else {
       profile.style.display = 'none'; 
@@ -103,4 +104,3 @@ fabButton.addEventListener("click", function () {
 
 // copyright year 
 document.getElementById("currentYear").textContent = new Date().getFullYear();
-

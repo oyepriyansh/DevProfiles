@@ -966,5 +966,13 @@
     "twitter": "https://x.com/nerdinbiz",
     "linkedin": "",
     "skills": ["HTML/CSS/JS", "ReactJS", "NextJS", "Python"]
+  },
+  {
+    "name": "Asimanye Dudumayo",
+    "image": "https://avatars.githubusercontent.com/u/148616095?v=4",
+    "github": "https://github.com/adudumayo",
+    "twitter": "",
+    "linkedin": "www.linkedin.com/in/asimanye-dudumayo-879a3a16a",
+    "skills": ["Java", "Python", "ReactJS", "HTML/CSS/JS"]
   }
 ]

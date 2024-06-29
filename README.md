@@ -6,10 +6,22 @@
 
 DevProfiles is a platform for developers to easily share their profiles, spotlight your skills, and connect with fellow developers in the community.
 
+## 💻 Tech Stack
+
+
+<img src="https://oyepriyansh.pages.dev/i/s6fs9f.svg">
+
+### Icons
+
+- [Font Awesome](https://fontawesome.com/icons)
+
 ## 👨‍💻 Contributing
 Contributions make the open source community such an amazing place to learn, inspire, and create.<br>
 Please see the [CONTRIBUTING.md](https://github.com/oyepriyansh/DevProfiles/blob/main/CONTRIBUTING.md) file for more information.
-**Any contributions you make are truly appreciated!**
+
+<!-- ### How to add a profile? -->
+
+> **Any contributions you make are truly appreciated!**
 
 ## 🤝 Thank you, contributors!
 <details>

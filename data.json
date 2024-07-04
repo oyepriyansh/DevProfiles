@@ -974,5 +974,13 @@
     "twitter": "",
     "linkedin": "www.linkedin.com/in/asimanye-dudumayo-879a3a16a",
     "skills": ["Java", "Python", "ReactJS", "HTML/CSS/JS"]
+  },
+  {
+    "name": "Ashutosh Kumar",
+    "image": "https://avatars.githubusercontent.com/u/130897584",
+    "github": "https://github.com/codeaashu",
+    "twitter": "https://twitter.com/warrior_aashuu",
+    "linkedin": "https://www.linkedin.com/in/ashutoshkumaraashu/",
+    "skills": ["WebDev", "WebDesign", "UI/UX"]
   }
 ]

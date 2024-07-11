@@ -982,5 +982,13 @@
     "twitter": "https://twitter.com/warrior_aashuu",
     "linkedin": "https://www.linkedin.com/in/ashutoshkumaraashu/",
     "skills": ["WebDev", "WebDesign", "UI/UX"]
+  },
+  {
+    "name": "Hailey Martin",
+    "image": "https://avatars.githubusercontent.com/u/101282320?v=4",
+    "github": "https://github.com/Hailo7ts",
+    "twitter": "https://x.com/Hailo7ts",
+    "linkedin": "https://www.linkedin.com/in/hailey-martin-co/",
+    "skills": ["WebDev", "ReactJS", "HTML/CSS/JS", "Java", "C"]
   }
 ]

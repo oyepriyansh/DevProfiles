@@ -1,5 +1,13 @@
 [
   {
+    "name": "Volkan Kabay",
+    "image": "https://volkankabay.com/memoji.png",
+    "github": "https://github.com/Volkankabay",
+    "twitter": "",
+    "linkedin": "https://de.linkedin.com/in/volkan-kabay-9b3579233",
+    "skills": ["React", "Typescript", "JavaScript"]
+  },
+  {
     "name": "Zaid Rakhange",
     "image": "https://avatars.githubusercontent.com/u/156203398?v=4",
     "github": "https://github.com/zaid-commits",

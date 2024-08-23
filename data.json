@@ -1,4 +1,12 @@
 [
+    {
+    "name": "Zakarya Oukil",
+    "image": "https://ibb.co/Sdn9WNp",
+    "github": "https://github.com/Oukil00",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/zakarya-oukil-2858a2203/",
+    "skills": ["React", "Typescript", "JavaScript" , "Laravel", "MySQL", "Figma"]
+  },
   {
     "name": "Volkan Kabay",
     "image": "https://volkankabay.com/memoji.png",

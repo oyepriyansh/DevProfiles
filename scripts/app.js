@@ -3,6 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('search') && urlParams.get('search').trim() === '') {
   window.location.href = '/'; // Redirect to the root URL if search parameter is empty
 }
+
 const container = document.querySelector('.container');
 const defaultImage = "https://oyepriyansh.pages.dev/i/5nf5fd.png";
 const searchInput = document.getElementById('searchInput'); // Assuming there's an input field for searching
@@ -149,7 +150,6 @@ document.getElementById("currentYear").textContent = new Date().getFullYear();
 loadProfiles();
 
 // Load search term from URL on page load
-const urlParams = new URLSearchParams(window.location.search);
 const searchTerm = urlParams.get('search') || '';
 searchInput.value = searchTerm; // Set the input value from the URL
 filterProfiles(searchTerm); // Filter profiles based on the URL search term

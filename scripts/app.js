@@ -1,4 +1,4 @@
-// Redirect if the URL contains an empty search parameter
+// Redirect if the URL contains an empty search query
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('search') && urlParams.get('search').trim() === '') {
   window.location.href = '/'; // Redirect to the root URL if search parameter is empty

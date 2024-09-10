@@ -1,3 +1,8 @@
+// Redirect if the URL contains an empty search parameter
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('search') && urlParams.get('search').trim() === '') {
+  window.location.href = '/'; // Redirect to the root URL if search parameter is empty
+}
 const container = document.querySelector('.container');
 const defaultImage = "https://oyepriyansh.pages.dev/i/5nf5fd.png";
 const searchInput = document.getElementById('searchInput'); // Assuming there's an input field for searching

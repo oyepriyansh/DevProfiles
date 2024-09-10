@@ -1,37 +1,45 @@
 const container = document.querySelector('.container');
 const defaultImage = "https://oyepriyansh.pages.dev/i/5nf5fd.png";
+const searchInput = document.getElementById('searchInput'); // Assuming there's an input field for searching
+const noProfileMessage = document.querySelector('.no-profile');
+const fabButton = document.getElementById("backToTopBtn");
 
+// Load profiles from JSON file
 const loadProfiles = async () => {
-  // Fetching data from JSON file
-  let data = await fetch('/data.json');
-  let profiles = await data.json();
+  try {
+    const response = await fetch('/data.json');
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const profiles = await response.json();
+    displayProfiles(shuffleArray(profiles));
+  } catch (error) {
+    console.error('Error fetching profiles:', error);
+    noProfileMessage.textContent = 'Failed to load profiles. Please try again later.';
+    noProfileMessage.style.display = 'block';
+  }
+};
 
-  profiles = shuffleArray(profiles);
-
-  
+// Display profiles on the page
+const displayProfiles = (profiles) => {
   profiles.forEach((profile) => {
-    let profileDiv = document.createElement('div');
+    const profileDiv = document.createElement('div');
     profileDiv.classList.add('profile');
 
-    //skills 
-    let skills = profile.skills.map(skill => `<span class="skill">${skill}</span>`).join('');
+    // Skills
+    const skills = profile.skills.map(skill => `<span class="skill">${skill}</span>`).join('');
 
-    // social links
-    let social = '';
-    if (profile.github) {
-      social += `<a href="${profile.github}" target="_blank"><i class="fa-brands fa-github"></i></a>`;
-    }
-    if (profile.twitter) {
-      social += `<a href="${profile.twitter}" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>`;
-    }
-    if (profile.linkedin) {
-      social += `<a href="${profile.linkedin}" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>`;
-    }
+    // Social links
+    const social = `
+      ${profile.github ? `<a href="${profile.github}" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>` : ''}
+      ${profile.twitter ? `<a href="${profile.twitter}" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>` : ''}
+      ${profile.linkedin ? `<a href="${profile.linkedin}" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>` : ''}
+    `;
 
-    // adding profile HTML content
+    // Adding profile HTML content
     profileDiv.innerHTML = `
       <div class="pfp">
-        <img src="${profile.image}" alt="User Image" onerror="this.onerror=null; this.src='${defaultImage}';">
+        <img src="${profile.image}" alt="${profile.name}'s Profile Picture" onerror="this.onerror=null; this.src='${defaultImage}';" />
       </div>
       <h2 class="name">${profile.name}</h2>
       <div class="skills">${skills}</div>
@@ -42,7 +50,7 @@ const loadProfiles = async () => {
   });
 };
 
-// Function to shuffle 
+// Shuffle array function
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -51,15 +59,20 @@ const shuffleArray = (array) => {
   return array;
 };
 
-loadProfiles();
-
-// Search function
+// Search function with debouncing
+let debounceTimer;
 searchInput.addEventListener('keyup', () => {
-  const searchTerm = searchInput.value.trim().toLowerCase();
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    filterProfiles(searchTerm);
+  }, 300); // 300ms debounce time
+});
+
+// Filter profiles based on search term
+const filterProfiles = (searchTerm) => {
   const profiles = document.querySelectorAll('.profile');
   let visibleProfiles = 0;
-
-
 
   profiles.forEach((profile) => {
     const profileName = profile.querySelector('.name').innerText.trim().toLowerCase();
@@ -73,29 +86,21 @@ searchInput.addEventListener('keyup', () => {
     }
   });
 
-// no profiles
-  const noProfileMessage = document.querySelector('.no-profile');
-  if (visibleProfiles > 0) {
-    noProfileMessage.style.display = 'none';
-  } else {
-    noProfileMessage.style.display = 'block';
-  }
-});
+  // Show or hide the no profiles message
+  noProfileMessage.style.display = visibleProfiles > 0 ? 'none' : 'block';
+};
 
-// Scroll to top button        
-var fabButton = document.getElementById("backToTopBtn");
-
+// Scroll to top button functionality
 window.onscroll = function () {
-  if (window.scrollY > 20) {
-    fabButton.style.display = "block";
-  } else {
-    fabButton.style.display = "none";
-  }
+  fabButton.style.display = window.scrollY > 20 ? "block" : "none";
 };
 
 fabButton.addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// footer year
+// Footer year display
 document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+// Load profiles when the page is ready
+loadProfiles();

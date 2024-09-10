@@ -1,37 +1,49 @@
 const container = document.querySelector('.container');
 const defaultImage = "https://oyepriyansh.pages.dev/i/5nf5fd.png";
+const searchInput = document.getElementById('searchInput'); // Assuming there's an input field for searching
+const noProfileMessage = document.querySelector('.no-profile'); // Message element
+const fabButton = document.getElementById("backToTopBtn");
 
+// Load profiles from JSON file
 const loadProfiles = async () => {
-  // Fetching data from JSON file
-  let data = await fetch('/data.json');
-  let profiles = await data.json();
+  try {
+    const response = await fetch('/data.json');
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const profiles = await response.json();
+    displayProfiles(shuffleArray(profiles));
+  } catch (error) {
+    console.error('Error fetching profiles:', error);
+    noProfileMessage.textContent = 'Failed to load profiles. Please try again later.';
+    noProfileMessage.style.display = 'block'; // Show error message
+  }
+};
 
-  profiles = shuffleArray(profiles);
-
-  
-  profiles.forEach((profile) => {
-    let profileDiv = document.createElement('div');
+// Display profiles on the page
+const displayProfiles = async (profiles) => {
+  container.innerHTML = ''; // Clear existing profiles
+  for (const profile of profiles) {
+    const profileDiv = document.createElement('div');
     profileDiv.classList.add('profile');
 
-    //skills 
-    let skills = profile.skills.map(skill => `<span class="skill">${skill}</span>`).join('');
+    // Determine the image source
+    let imageSrc = profile.image || await fetchGitHubImage(profile.github);
 
-    // social links
-    let social = '';
-    if (profile.github) {
-      social += `<a href="${profile.github}" target="_blank"><i class="fa-brands fa-github"></i></a>`;
-    }
-    if (profile.twitter) {
-      social += `<a href="${profile.twitter}" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>`;
-    }
-    if (profile.linkedin) {
-      social += `<a href="${profile.linkedin}" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>`;
-    }
+    // Skills
+    const skills = profile.skills.map(skill => `<span class="skill">${skill}</span>`).join('');
 
-    // adding profile HTML content
+    // Social links
+    const social = `
+      ${profile.github ? `<a href="${profile.github}" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>` : ''}
+      ${profile.twitter ? `<a href="${profile.twitter}" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>` : ''}
+      ${profile.linkedin ? `<a href="${profile.linkedin}" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>` : ''}
+    `;
+
+    // Adding profile HTML content
     profileDiv.innerHTML = `
       <div class="pfp">
-        <img src="${profile.image}" alt="User Image" onerror="this.onerror=null; this.src='${defaultImage}';">
+        <img src="${imageSrc}" alt="${profile.name}'s Profile Picture" onerror="this.onerror=null; this.src='${defaultImage}';" />
       </div>
       <h2 class="name">${profile.name}</h2>
       <div class="skills">${skills}</div>
@@ -39,10 +51,31 @@ const loadProfiles = async () => {
     `;
 
     container.append(profileDiv);
-  });
+  }
 };
 
-// Function to shuffle 
+// Function to fetch GitHub image
+const fetchGitHubImage = async (githubUrl) => {
+  if (!githubUrl) return defaultImage; // Return default if no GitHub URL
+
+  // Extract username from GitHub URL
+  const username = githubUrl.split('/').pop();
+  const apiUrl = `https://api.github.com/users/${username}`;
+
+  try {
+    const response = await fetch(apiUrl);
+    if (!response.ok) {
+      throw new Error('GitHub user not found');
+    }
+    const userData = await response.json();
+    return userData.avatar_url || defaultImage; // Return avatar URL or default image
+  } catch (error) {
+    console.error('Error fetching GitHub image:', error);
+    return defaultImage; // Fallback to default image on error
+  }
+};
+
+// Shuffle array function
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -51,15 +84,29 @@ const shuffleArray = (array) => {
   return array;
 };
 
-loadProfiles();
-
-// Search function
+// Search function with debouncing and URL update
+let debounceTimer;
 searchInput.addEventListener('keyup', () => {
+  clearTimeout(debounceTimer);
   const searchTerm = searchInput.value.trim().toLowerCase();
+  updateURL(searchTerm); // Update the URL with the search term
+
+  debounceTimer = setTimeout(() => {
+    filterProfiles(searchTerm);
+  }, 300); // 300ms debounce time
+});
+
+// Function to update the URL
+const updateURL = (searchTerm) => {
+  const url = new URL(window.location);
+  url.searchParams.set('search', searchTerm);
+  window.history.pushState({}, '', url);
+};
+
+// Filter profiles based on search term
+const filterProfiles = (searchTerm) => {
   const profiles = document.querySelectorAll('.profile');
   let visibleProfiles = 0;
-
-
 
   profiles.forEach((profile) => {
     const profileName = profile.querySelector('.name').innerText.trim().toLowerCase();
@@ -73,29 +120,31 @@ searchInput.addEventListener('keyup', () => {
     }
   });
 
-// no profiles
-  const noProfileMessage = document.querySelector('.no-profile');
-  if (visibleProfiles > 0) {
-    noProfileMessage.style.display = 'none';
+  // Show or hide the no profiles message based on search results
+  if (visibleProfiles === 0 && searchTerm !== '') {
+    noProfileMessage.style.display = 'block'; // Show message if no profiles found
   } else {
-    noProfileMessage.style.display = 'block';
+    noProfileMessage.style.display = 'none'; // Hide message if profiles are found
   }
-});
+};
 
-// Scroll to top button        
-var fabButton = document.getElementById("backToTopBtn");
-
+// Scroll to top button functionality
 window.onscroll = function () {
-  if (window.scrollY > 20) {
-    fabButton.style.display = "block";
-  } else {
-    fabButton.style.display = "none";
-  }
+  fabButton.style.display = window.scrollY > 20 ? "block" : "none";
 };
 
 fabButton.addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// footer year
+// Footer year display
 document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+// Load profiles when the page is ready
+loadProfiles();
+
+// Load search term from URL on page load
+const urlParams = new URLSearchParams(window.location.search);
+const searchTerm = urlParams.get('search') || '';
+searchInput.value = searchTerm; // Set the input value from the URL
+filterProfiles(searchTerm); // Filter profiles based on the URL search term

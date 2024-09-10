@@ -46,6 +46,8 @@ Join our Discord server for any kind of help. <br>
 Don't forget to leave a star ⭐
 
 <a href="#"> <img src="https://oyepriyansh.pages.dev/i/895dfb4d98fgcf5e.gif" alt="star repo gif"> </a>
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=oyepriyansh/DevProfiles&type=Date)](https://star-history.com/#oyepriyansh/DevProfiles&Date)
 ## 💳 Author
 > <a href="https://oyepriyansh.github.io">Priyansh Prajapat (@oyepriyansh)</a>

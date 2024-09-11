@@ -39,11 +39,11 @@ const displayProfiles = async (profiles) => {
     // Skills
     const skills = profile.skills.map(skill => `<span class="skill">${skill}</span>`).join('');
 
-    // Social links
+    // Social links with improved accessibility
     const social = `
-      ${profile.github ? `<a href="${profile.github}" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>` : ''}
-      ${profile.twitter ? `<a href="${profile.twitter}" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>` : ''}
-      ${profile.linkedin ? `<a href="${profile.linkedin}" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>` : ''}
+      ${profile.github ? `<a href="${profile.github}" target="_blank" aria-label="${profile.name}'s GitHub Profile"><i class="fa-brands fa-github"></i></a>` : ''}
+      ${profile.twitter ? `<a href="${profile.twitter}" target="_blank" aria-label="${profile.name}'s Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>` : ''}
+      ${profile.linkedin ? `<a href="${profile.linkedin}" target="_blank" aria-label="${profile.name}'s LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>` : ''}
     `;
 
     // Adding profile HTML content
@@ -95,9 +95,9 @@ let debounceTimer;
 searchInput.addEventListener('keyup', () => {
   clearTimeout(debounceTimer);
   const searchTerm = searchInput.value.trim().toLowerCase();
-  updateURL(searchTerm); // Update the URL with the search term
 
   debounceTimer = setTimeout(() => {
+    updateURL(searchTerm); // Update the URL with the search term
     filterProfiles(searchTerm);
   }, 300); // 300ms debounce time
 });
@@ -127,11 +127,7 @@ const filterProfiles = (searchTerm) => {
   });
 
   // Show or hide the no profiles message based on search results
-  if (visibleProfiles === 0 && searchTerm !== '') {
-    noProfileMessage.style.display = 'block'; // Show message if no profiles found
-  } else {
-    noProfileMessage.style.display = 'none'; // Hide message if profiles are found
-  }
+  noProfileMessage.style.display = (visibleProfiles === 0 && searchTerm !== '') ? 'block' : 'none'; // Show message if no profiles found
 };
 
 // Scroll to top button functionality

@@ -96,6 +96,12 @@ searchInput.addEventListener('keyup', () => {
   clearTimeout(debounceTimer);
   const searchTerm = searchInput.value.trim().toLowerCase();
 
+  // Redirect if the search input is empty
+  if (searchTerm === '') {
+    window.location.href = '/'; // Redirect to the root URL if search input is empty
+    return; // Exit the function early
+  }
+
   debounceTimer = setTimeout(() => {
     updateURL(searchTerm); // Update the URL with the search term
     filterProfiles(searchTerm);

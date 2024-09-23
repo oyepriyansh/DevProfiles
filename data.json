@@ -1,5 +1,13 @@
 [
     {
+    "name": "Bharat Negi",
+    "image": "https://avatars.githubusercontent.com/u/42315388?v=4",
+    "github": "https://github.com/bhrtsnegi",
+    "twitter": "https://x.com/bhrtsnegi",
+    "linkedin": "https://www.linkedin.com/in/bhrtsnegi/",
+    "skills": ["React", "JavaScript" , "Node.js", "MySQL", "C++"]
+  },
+    {
     "name": "Zakarya Oukil",
     "image": "https://ibb.co/Sdn9WNp",
     "github": "https://github.com/Oukil00",

@@ -1014,5 +1014,13 @@
     "twitter": "https://x.com/Hailo7ts",
     "linkedin": "https://www.linkedin.com/in/hailey-martin-co/",
     "skills": ["WebDev", "ReactJS", "HTML/CSS/JS", "Java", "C"]
+  },
+  {
+    "name": "Gaurav Giri",
+    "image": "https://avatars.githubusercontent.com/u/64427471?v=4",
+    "github": "https://github.com/gaurovgiri",
+    "twitter": "https://x.com/gaurovgiri",
+    "linkedin": "https://www.linkedin.com/in/gaurovgiri/",
+    "skills": ["Python", "Dart", "HTML/CSS/JS", "C/C++", "Flutter", "AI/ML", "MERN"]
   }
 ]

@@ -1022,5 +1022,13 @@
     "twitter": "https://x.com/gaurovgiri",
     "linkedin": "https://www.linkedin.com/in/gaurovgiri/",
     "skills": ["Python", "Dart", "HTML/CSS/JS", "C/C++", "Flutter", "AI/ML", "MERN"]
+  },
+  {
+    "name": "Aayush Shrestha",
+    "image": "https://avatars.githubusercontent.com/u/115408327?v=4",
+    "github": "https://github.com/aayush105",
+    "twitter": "https://x.com/aayushrestha5",
+    "linkedin": "https://www.linkedin.com/in/aayushrestha/",
+    "skills": ["ReactJS", "NextJS", "HTML/CSS/JS", "C/C++", "MERN"]
   }
 ]

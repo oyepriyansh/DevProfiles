@@ -1030,5 +1030,13 @@
     "twitter": "https://x.com/aayushrestha5",
     "linkedin": "https://www.linkedin.com/in/aayushrestha/",
     "skills": ["ReactJS", "NextJS", "HTML/CSS/JS", "C/C++", "MERN"]
+  },
+  {
+    "name": "Khail Vaun",
+    "image": "https://avatars.githubusercontent.com/u/118745499?v=4",
+    "github": "https://github.com/yolk23",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["ReactJS", "NextJS", "HTML/CSS/JS"]
   }
 ]

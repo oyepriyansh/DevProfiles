@@ -1038,5 +1038,13 @@
     "twitter": "",
     "linkedin": "",
     "skills": ["ReactJS", "NextJS", "HTML/CSS/JS"]
+  },
+  {
+    "name": "Nishant Movaliya",
+    "image": "https://avatars.githubusercontent.com/u/63806205?v=4",
+    "github": "https://github.com/nishantmovaliya",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/nishant-movaliya-6b8813169/",
+    "skills": ["Node.js", "Typescript", "PostgreSQL", "NestJS", "Socket.io", "Redis", "AWS"]
   }
 ]

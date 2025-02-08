@@ -1046,5 +1046,13 @@
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/nishant-movaliya-6b8813169/",
     "skills": ["Node.js", "Typescript", "PostgreSQL", "NestJS", "Socket.io", "Redis", "AWS"]
-  }
+  },
+  {
+    "name": "Pratima Sapkota",
+    "image": "https://avatars.githubusercontent.com/u/142002952?s=400&u=c4195acee837f1610f6042f7b491b3f666fe1c1a&v=4",
+    "github": "https://github.com/pratimaasapkota",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/pratima-sapkota-55836727b",
+    "skills": ["Javascript", "MEAN","Nextjs" ,"React", "Python", "AI/ML"]
+}
 ]

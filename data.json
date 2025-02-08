@@ -1047,4 +1047,13 @@
     "linkedin": "https://www.linkedin.com/in/nishant-movaliya-6b8813169/",
     "skills": ["Node.js", "Typescript", "PostgreSQL", "NestJS", "Socket.io", "Redis", "AWS"]
   }
+  {
+    "name": "Pratima Sapkota",
+    "image": "",
+    "github": "https://github.com/pratimaasapkota",
+    "twitter": "",
+    "linkedin": "https://linkedin.com/in/pratima-sapkota-55836727b",
+    "skills": ["Javascript","MEAN" ,"React", "Python","AI/ML"]
+  },
+
 ]

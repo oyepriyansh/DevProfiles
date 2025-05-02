@@ -1054,5 +1054,13 @@
     "twitter": "",
     "linkedin": "https://linkedin.com/in/pratima-sapkota-55836727b",
     "skills": ["Javascript", "MEAN","Nextjs" ,"React", "Python", "AI/ML"]
-}
+  },
+  {
+    "name": "Zoom",
+    "image": "https://github.com/TheOldZoom.png",
+    "github": "https://github.com/TheOldZoom",
+    "twitter": "https://x.com/TheOldZoom",
+    "linkedin": "",
+    "skills": ["Node.js", "TypeScript", "MySQL", "Next.js", "NestJS", "Express.js"]
+  }
 ]

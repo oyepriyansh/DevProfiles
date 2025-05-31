@@ -1063,6 +1063,14 @@
     "skills": ["Javascript", "MEAN","Nextjs" ,"React", "Python", "AI/ML"]
   },
   {
+    "name": "Andrew Dmitriev",
+    "image": "https://avatars.githubusercontent.com/u/31632787?v=4",
+    "github": "https://github.com/theevilgrinch",
+    "twitter": "",
+    "linkedin": "",
+    "skills": ["Javascript", "HTML","CSS" ,"React", "SASS", "AI tools", "EJS", "PUG", "Figma", "Linux", "NodeJS"]
+  },
+  {
     "name": "Zoom",
     "image": "https://github.com/TheOldZoom.png",
     "github": "https://github.com/TheOldZoom",

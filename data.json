@@ -31,6 +31,13 @@
     "skills": ["React", "Typescript", "JavaScript"]
   },
   {
+    "name": "Henrique Queiroz",
+    "image": "https://github.com/queirozz8",
+    "github": "https://github.com/queirozz8",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/queirozz8/",
+    "skills": ["HTML/CSS/JS", "React/Next.js", "TypeScript"]
+  {
     "name": "Zaid Rakhange",
     "image": "https://avatars.githubusercontent.com/u/156203398?v=4",
     "github": "https://github.com/zaid-commits",

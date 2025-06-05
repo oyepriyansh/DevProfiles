@@ -154,4 +154,5 @@ loadProfiles();
 // Load search term from URL on page load
 const searchTerm = urlParams.get('search') || '';
 searchInput.value = searchTerm; // Set the input value from the URL
+searchInput.focus(); // Focus the search input
 filterProfiles(searchTerm); // Filter profiles based on the URL search term

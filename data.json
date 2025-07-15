@@ -1,26 +1,43 @@
 [
-      {
+  {
     "name": "Aniket Sonawat",
     "image": "https://avatars.githubusercontent.com/u/158815644?v=4",
     "github": "https://github.com/sonawat",
     "linkedin": "https://www.linkedin.com/in/aniket-sonawat-a94803319/",
-    "skills": ["Laravel", "React", "PHP"]
+    "skills": [
+      "Laravel",
+      "React",
+      "PHP"
+    ]
   },
-    {
+  {
     "name": "Bharat Negi",
     "image": "https://avatars.githubusercontent.com/u/42315388?v=4",
     "github": "https://github.com/bhrtsnegi",
     "twitter": "https://x.com/bhrtsnegi",
     "linkedin": "https://www.linkedin.com/in/bhrtsnegi/",
-    "skills": ["React", "JavaScript" , "Node.js", "MySQL", "C++"]
+    "skills": [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "MySQL",
+      "C++"
+    ]
   },
-    {
+  {
     "name": "Zakarya Oukil",
     "image": "https://ibb.co/Sdn9WNp",
     "github": "https://github.com/Oukil00",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/zakarya-oukil-2858a2203/",
-    "skills": ["React", "Typescript", "JavaScript" , "Laravel", "MySQL", "Figma"]
+    "skills": [
+      "React",
+      "Typescript",
+      "JavaScript",
+      "Laravel",
+      "MySQL",
+      "Figma"
+    ]
   },
   {
     "name": "Volkan Kabay",
@@ -28,7 +45,11 @@
     "github": "https://github.com/Volkankabay",
     "twitter": "",
     "linkedin": "https://de.linkedin.com/in/volkan-kabay-9b3579233",
-    "skills": ["React", "Typescript", "JavaScript"]
+    "skills": [
+      "React",
+      "Typescript",
+      "JavaScript"
+    ]
   },
   {
     "name": "Henrique Queiroz",
@@ -36,7 +57,11 @@
     "github": "https://github.com/queirozz8",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/queirozz8/",
-    "skills": ["HTML/CSS/JS", "React/Next.js", "TypeScript"]
+    "skills": [
+      "HTML/CSS/JS",
+      "React/Next.js",
+      "TypeScript"
+    ]
   },
   {
     "name": "Zaid Rakhange",
@@ -44,7 +69,14 @@
     "github": "https://github.com/zaid-commits",
     "twitter": "https://x.com/zaid_suiii?s=09",
     "linkedin": "https://www.linkedin.com/in/zaid-rakhange-47a5b32b1/",
-    "skills": ["Html/Css/Js", "React", "Java","Python","C++","SQL"]
+    "skills": [
+      "Html/Css/Js",
+      "React",
+      "Java",
+      "Python",
+      "C++",
+      "SQL"
+    ]
   },
   {
     "name": "Priyansh Prajapat",
@@ -52,7 +84,10 @@
     "github": "https://github.com/oyepriyansh",
     "twitter": "https://twitter.com/oyepriyansh",
     "linkedin": "https://linkedin.com/in/oyepriyansh",
-    "skills": ["Java", "Javascript"]
+    "skills": [
+      "Java",
+      "Javascript"
+    ]
   },
   {
     "name": "Arman",
@@ -60,7 +95,11 @@
     "github": "https://github.com/ItzArman09",
     "twitter": "",
     "linkedin": "",
-    "skills": ["Javascript", "NextJS", "Python"]
+    "skills": [
+      "Javascript",
+      "NextJS",
+      "Python"
+    ]
   },
   {
     "name": "Sahil Khan",
@@ -68,7 +107,11 @@
     "github": "https://github.com/SpicyDevSahil",
     "twitter": "",
     "linkedin": "",
-    "skills": ["HTML", "Javascript", "Python"]
+    "skills": [
+      "HTML",
+      "Javascript",
+      "Python"
+    ]
   },
   {
     "name": "Juan Diaz",
@@ -76,7 +119,11 @@
     "github": "https://github.com/JuanPabloDiaz",
     "twitter": "https://twitter.com/1diazdev",
     "linkedin": "https://linkedin.com/in/1diazdev",
-    "skills": ["React", "NextJS", "Javascript"]
+    "skills": [
+      "React",
+      "NextJS",
+      "Javascript"
+    ]
   },
   {
     "name": "Gangadhara Rao Ande",
@@ -84,7 +131,13 @@
     "github": "https://github.com/gangadhararaoande",
     "twitter": "https://twitter.com/Gangadhara18Rao",
     "linkedin": "https://www.linkedin.com/in/gangadhara-rao-ande",
-    "skills": ["HTML", "CSS", "Javascript", "SQL", "Python"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "SQL",
+      "Python"
+    ]
   },
   {
     "name": "cvyl / Mikka",
@@ -92,7 +145,9 @@
     "github": "https://github.com/cvyl",
     "twitter": "https://cvyl.me",
     "linkedin": "",
-    "skills": ["Amateur FSD"]
+    "skills": [
+      "Amateur FSD"
+    ]
   },
   {
     "name": "Aquul ur Rahman Khan",
@@ -100,7 +155,12 @@
     "github": "https://github.com/Rahmaaaan",
     "twitter": "https://twitter.com/therahmaan",
     "linkedin": "https://www.linkedin.com/in/therahman",
-    "skills": ["Javascript", "Typescript", "React", "Python"]
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "React",
+      "Python"
+    ]
   },
   {
     "name": "Shrut Sureja",
@@ -108,7 +168,11 @@
     "github": "https://github.com/shrutsureja",
     "twitter": "https://twitter.com/shrutsureja",
     "linkedin": "https://www.linkedin.com/in/shrutsureja",
-    "skills": ["MERN", "NextJS", "LLMops"]
+    "skills": [
+      "MERN",
+      "NextJS",
+      "LLMops"
+    ]
   },
   {
     "name": "Himanshu Chandola",
@@ -116,7 +180,11 @@
     "github": "https://github.com/himanshuchandola",
     "twitter": "https://himanshuchandola-portfolio.vercel.app",
     "linkedin": "https://www.linkedin.com/in/himanshuchandola",
-    "skills": ["Javascript", "React", "NextJS"]
+    "skills": [
+      "Javascript",
+      "React",
+      "NextJS"
+    ]
   },
   {
     "name": "Juliana Praxedes",
@@ -124,7 +192,11 @@
     "github": "https://github.com/praxeds",
     "twitter": "http://julianapraxedes.com",
     "linkedin": "https://www.linkedin.com/in/juliana-praxedes",
-    "skills": ["Elixir", "React", "VueJS"]
+    "skills": [
+      "Elixir",
+      "React",
+      "VueJS"
+    ]
   },
   {
     "name": "Robert Dixon",
@@ -132,7 +204,14 @@
     "github": "https://github.com/robsd",
     "twitter": "https://robertd.co.uk",
     "linkedin": "https://linkedin.com/in/robstewartdixon",
-    "skills": ["HTML", "CSS", "Javascript", "Python", "PHP", "MySQL"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Python",
+      "PHP",
+      "MySQL"
+    ]
   },
   {
     "name": "Hemang Yadav",
@@ -140,7 +219,12 @@
     "github": "https://github.com/Zemerik",
     "twitter": "https://twitter.com/ZemerikY",
     "linkedin": "",
-    "skills": ["Javascript", "Typescript", "Python", "MongoDB"]
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "Python",
+      "MongoDB"
+    ]
   },
   {
     "name": "Lakshay Joshi",
@@ -148,7 +232,12 @@
     "github": "https://github.com/lakshay451",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/lakshay-joshi-b9298b201",
-    "skills": ["Javascript", "React", "NodeJS", "MERN"]
+    "skills": [
+      "Javascript",
+      "React",
+      "NodeJS",
+      "MERN"
+    ]
   },
   {
     "name": "Nelson Uprety",
@@ -156,7 +245,11 @@
     "github": "https://github.com/nelsonuprety1",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/nelson-uprety-951a2b156",
-    "skills": ["HTML/CSS", "Javascript", "React"]
+    "skills": [
+      "HTML/CSS",
+      "Javascript",
+      "React"
+    ]
   },
   {
     "name": "Rohit Kumar Dey",
@@ -164,7 +257,12 @@
     "github": "https://github.com/rohits-web03",
     "twitter": "https://twitter.com/rohits_web",
     "linkedin": "https://www.linkedin.com/in/rohit-kumar-dey-3856891a5",
-    "skills": ["MERN", "TailwindCSS", "Javascript", "React"]
+    "skills": [
+      "MERN",
+      "TailwindCSS",
+      "Javascript",
+      "React"
+    ]
   },
   {
     "name": "Ajay Dhangar",
@@ -172,7 +270,10 @@
     "github": "https://github.com/Ajay-Dhangar",
     "twitter": "https://twitter.com/AJAYDHA27250016",
     "linkedin": "https://www.linkedin.com/in/ajay-dhangar",
-    "skills": ["MERN", "Java"]
+    "skills": [
+      "MERN",
+      "Java"
+    ]
   },
   {
     "name": "Rémi JARA",
@@ -180,7 +281,13 @@
     "github": "https://github.com/icepick4",
     "twitter": "https://capitalympics.com",
     "linkedin": "https://www.linkedin.com/in/remijara",
-    "skills": ["Python", "Typescript", "VueJS", "React", "Java"]
+    "skills": [
+      "Python",
+      "Typescript",
+      "VueJS",
+      "React",
+      "Java"
+    ]
   },
   {
     "name": "Akansh Bende",
@@ -188,7 +295,12 @@
     "github": "https://github.com/akanshbende",
     "twitter": "https://twitter.com/akansh_bende",
     "linkedin": "https://www.linkedin.com/in/akansh-bende",
-    "skills": ["C++", "Javascript", "React", "TailwindCSS"]
+    "skills": [
+      "C++",
+      "Javascript",
+      "React",
+      "TailwindCSS"
+    ]
   },
   {
     "name": "Rohit Singh",
@@ -196,7 +308,10 @@
     "github": "https://github.com/starohit",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/btwitsrohit",
-    "skills": ["Java", "Python"]
+    "skills": [
+      "Java",
+      "Python"
+    ]
   },
   {
     "name": "Pradeep Pawar",
@@ -204,7 +319,11 @@
     "github": "https://github.com/pradeep8577",
     "twitter": "https://x.com/Pradeep8577",
     "linkedin": "https://linkedin.com/in/pradeep-pawar-6541541aa",
-    "skills": ["Javascript", "NodeJS", "Python"]
+    "skills": [
+      "Javascript",
+      "NodeJS",
+      "Python"
+    ]
   },
   {
     "name": "Dev Sanghvi",
@@ -212,7 +331,11 @@
     "github": "https://github.com/dev31sanghvi",
     "twitter": "https://twitter.com/DevSanghvi13",
     "linkedin": "https://www.linkedin.com/in/dev-sanghvi-6137401b1",
-    "skills": ["React", "Javascript", "NodeJS"]
+    "skills": [
+      "React",
+      "Javascript",
+      "NodeJS"
+    ]
   },
   {
     "name": "Vishal Kumar",
@@ -220,7 +343,10 @@
     "github": "https://github.com/vishalverma9572",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/vishal-kumar-375a25250",
-    "skills": ["C++", "Python"]
+    "skills": [
+      "C++",
+      "Python"
+    ]
   },
   {
     "name": "Septian Maulana",
@@ -228,7 +354,11 @@
     "github": "https://github.com/tianbuyung",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/septian-maulana",
-    "skills": ["Javascript", "Typescript", "Solidity"]
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "Solidity"
+    ]
   },
   {
     "name": "Kumar Shivam",
@@ -236,7 +366,12 @@
     "github": "https://github.com/kshivam30",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/kumarshivam30",
-    "skills": ["C++", "Python", "Javascript", "MERN"]
+    "skills": [
+      "C++",
+      "Python",
+      "Javascript",
+      "MERN"
+    ]
   },
   {
     "name": "Ashmit Mehta",
@@ -244,7 +379,11 @@
     "github": "https://github.com/Ash-codes18",
     "twitter": "https://twitter.com/ashmitMeht18178",
     "linkedin": "https://linkedin.com/in/ashmit-mehta",
-    "skills": ["Python", "MySQL", "Javascript"]
+    "skills": [
+      "Python",
+      "MySQL",
+      "Javascript"
+    ]
   },
   {
     "name": "Priyanshu Singh",
@@ -252,7 +391,11 @@
     "github": "https://github.com/Priyanshu-su30",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/priyanshu-singh-a7711822b",
-    "skills": ["Java", "Python", "Javascript"]
+    "skills": [
+      "Java",
+      "Python",
+      "Javascript"
+    ]
   },
   {
     "name": "Arnab Barua",
@@ -260,7 +403,9 @@
     "github": "https://github.com/Arnabhit",
     "twitter": "https://twitter.com/Arnab991",
     "linkedin": "https://www.linkedin.com/in/arnab-barua-a66a4b220",
-    "skills": ["AI/ML"]
+    "skills": [
+      "AI/ML"
+    ]
   },
   {
     "name": "Shail Patel",
@@ -268,7 +413,9 @@
     "github": "https://github.com/shail-patel-321",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/shail-patel-058200284",
-    "skills": ["Linux"]
+    "skills": [
+      "Linux"
+    ]
   },
   {
     "name": "Hitesh Kumar",
@@ -276,7 +423,11 @@
     "github": "https://github.com/hiteshverse",
     "twitter": "https://twitter.com/hiteshverse",
     "linkedin": "https://www.linkedin.com/in/hiteshverse",
-    "skills": ["HTML", "CSS", "Javascript"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
   },
   {
     "name": "Charles Luguda",
@@ -284,7 +435,11 @@
     "github": "https://github.com/charlesluguda",
     "twitter": "https://twitter.com/Luguda2",
     "linkedin": "https://www.linkedin.com/in/charles-luguda-663689214",
-    "skills": ["HTML/CSS/JS", "Bootstrap", "Python"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Bootstrap",
+      "Python"
+    ]
   },
   {
     "name": "Dheeraj Sara",
@@ -292,7 +447,10 @@
     "github": "https://github.com/SaranaDheeraj",
     "twitter": "https://twitter.com/DheerajSarana",
     "linkedin": "https://www.linkedin.com/in/sarana-dheeraj-990594228",
-    "skills": ["HTML/CSS/JS", "Java"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Java"
+    ]
   },
   {
     "name": "Rohith Pradeep",
@@ -300,7 +458,11 @@
     "github": "https://github.com/ROHITTTTZ",
     "twitter": "",
     "linkedin": "",
-    "skills": ["HTML/CSS", "C", "Java"]
+    "skills": [
+      "HTML/CSS",
+      "C",
+      "Java"
+    ]
   },
   {
     "name": "Joseph Gonzalez",
@@ -308,23 +470,35 @@
     "github": "https://github.com/Josephglz",
     "twitter": "https://twitter.com/JosephGlz99",
     "linkedin": "https://www.linkedin.com/in/JosephGlz",
-    "skills": ["NodeJS", "Angular", "Flutter"]
+    "skills": [
+      "NodeJS",
+      "Angular",
+      "Flutter"
+    ]
   },
-    {
+  {
     "name": "Aman Pathan",
     "image": "https://avatars.githubusercontent.com/u/76259086",
     "github": "https://github.com/amanpathan",
     "twitter": "https://twitter.com/aman_a_pathan",
     "linkedin": "https://www.linkedin.com/in/aman-pathan-a006ab202",
-    "skills": ["MERN", "C++", "Python"]
+    "skills": [
+      "MERN",
+      "C++",
+      "Python"
+    ]
   },
-    {
+  {
     "name": "Kishlay Krishna",
     "image": "https://avatars.githubusercontent.com/u/69421373",
     "github": "https://github.com/KrisJarvis",
     "twitter": "https://twitter.com/_Kris_0_0_",
     "linkedin": "https://www.linkedin.com/in/kishlay-krishna-629b90222",
-    "skills": ["Javascript", "React", "Python"]
+    "skills": [
+      "Javascript",
+      "React",
+      "Python"
+    ]
   },
   {
     "name": "Ankit Gadling",
@@ -332,7 +506,11 @@
     "github": "https://github.com/ankitgadling",
     "twitter": "",
     "linkedin": "",
-    "skills": ["Python", "Django", "Bootstrap"]
+    "skills": [
+      "Python",
+      "Django",
+      "Bootstrap"
+    ]
   },
   {
     "name": "Maida",
@@ -340,7 +518,11 @@
     "github": "https://github.com/maida12",
     "twitter": "",
     "linkedin": "https://pk.linkedin.com/in/maida-shahid-b26710191",
-    "skills": ["MERN", "C++", "Javascript"]
+    "skills": [
+      "MERN",
+      "C++",
+      "Javascript"
+    ]
   },
   {
     "name": "Abayomi Ogunnusi",
@@ -348,7 +530,11 @@
     "github": "https://github.com/drsimplegraffiti",
     "twitter": "https://twitter.com/drsimplegraffi1",
     "linkedin": "https://www.linkedin.com/in/abayomi-ogunnusi-974826141",
-    "skills": [".NET", "Javascript", "SQL"]
+    "skills": [
+      ".NET",
+      "Javascript",
+      "SQL"
+    ]
   },
   {
     "name": "Dhiman Nayak",
@@ -356,7 +542,11 @@
     "github": "https://www.github.com/Dhiman-Nayak",
     "twitter": "https://twitter.com/DhimanNayak03",
     "linkedin": "https://www.linkedin.com/in/dhimannayak",
-    "skills": ["Javascript", "NodeJS", "MongoDB"]
+    "skills": [
+      "Javascript",
+      "NodeJS",
+      "MongoDB"
+    ]
   },
   {
     "name": "Vinay S",
@@ -364,7 +554,11 @@
     "github": "https://github.com/vinay-s36",
     "twitter": "",
     "linkedin": "",
-    "skills": ["HTML/CSS/JS", "Python", "Java"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Python",
+      "Java"
+    ]
   },
   {
     "name": "Vensin",
@@ -372,7 +566,14 @@
     "github": "https://github.com/vxnsin",
     "twitter": "https://twitter.com/_Vensin",
     "linkedin": "",
-    "skills": ["Java", "Python", "Lua", "NodeJS", "HTML/CSS/JS", "SQL"]
+    "skills": [
+      "Java",
+      "Python",
+      "Lua",
+      "NodeJS",
+      "HTML/CSS/JS",
+      "SQL"
+    ]
   },
   {
     "name": "Afraz Khan",
@@ -380,7 +581,11 @@
     "github": "https://github.com/Afraz0Khan",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/akhan-swe",
-    "skills": ["Spring", "NodeJS", "MongoDB"]
+    "skills": [
+      "Spring",
+      "NodeJS",
+      "MongoDB"
+    ]
   },
   {
     "name": "Harsh Chauhan",
@@ -388,7 +593,10 @@
     "github": "https://github.com/HarshProj",
     "twitter": "https://twitter.com/HarshChauh84647",
     "linkedin": "https://www.linkedin.com/in/harsh-chauhan-0a34b01a0",
-    "skills": ["C++", "Javascript"]
+    "skills": [
+      "C++",
+      "Javascript"
+    ]
   },
   {
     "name": "Gurudayal Maurya",
@@ -396,7 +604,11 @@
     "github": "https://github.com/lucky-89",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/gurudayal-maurya-971999242",
-    "skills": ["React", "C++", "Python"]
+    "skills": [
+      "React",
+      "C++",
+      "Python"
+    ]
   },
   {
     "name": "Vishal Singh",
@@ -404,7 +616,11 @@
     "github": "https://github.com/Vishal35679",
     "twitter": "https://twitter.com/TeslaVishal",
     "linkedin": "https://www.linkedin.com/in/vishalsingh35679",
-    "skills": ["C++", "Python", "AI/ML"]
+    "skills": [
+      "C++",
+      "Python",
+      "AI/ML"
+    ]
   },
   {
     "name": "Udayan Sharma",
@@ -412,7 +628,11 @@
     "github": "https://github.com/hollermay",
     "twitter": "https://twitter.com/UdayanShar29025",
     "linkedin": "https://www.linkedin.com/in/udayan-s-7a8600246",
-    "skills": ["Javascript", "AI/ML", "Python"]
+    "skills": [
+      "Javascript",
+      "AI/ML",
+      "Python"
+    ]
   },
   {
     "name": "Olatunji-Aresa Ariyo",
@@ -420,7 +640,11 @@
     "github": "https://github.com/ariyoaresa",
     "twitter": "https://x.com/ariyoaresa",
     "linkedin": "https://ng.linkedin.com/in/ariyo-aresa-880921213",
-    "skills": ["HTML", "CSS", "Javascript"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
   },
   {
     "name": "Garima",
@@ -428,7 +652,11 @@
     "github": "https://github.com/gams0318",
     "twitter": "https://twitter.com/Garima_0318",
     "linkedin": "https://www.linkedin.com/in/garima-joshi-614b38227",
-    "skills": ["HTML", "CSS", "React"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "React"
+    ]
   },
   {
     "name": "Anurag Kumar",
@@ -436,7 +664,11 @@
     "github": "https://github.com/anurag21213",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/anurag-kumar-057796234?",
-    "skills": ["Javascript", "NodeJS", "React"]
+    "skills": [
+      "Javascript",
+      "NodeJS",
+      "React"
+    ]
   },
   {
     "name": "Sunil",
@@ -444,7 +676,11 @@
     "github": "https://github.com/sunildipun",
     "twitter": "https://x.com/last_seen_404",
     "linkedin": "https://www.linkedin.com/in/sunilbehera95",
-    "skills": ["HTML/CSS", "Javascript", "React"]
+    "skills": [
+      "HTML/CSS",
+      "Javascript",
+      "React"
+    ]
   },
   {
     "name": "Jan-FCloud",
@@ -452,7 +688,11 @@
     "github": "https://github.com/Jan-Fcloud",
     "twitter": "",
     "linkedin": "",
-    "skills": ["C++", "Javascript", "VR"]
+    "skills": [
+      "C++",
+      "Javascript",
+      "VR"
+    ]
   },
   {
     "name": "Deepak Verma",
@@ -460,7 +700,11 @@
     "github": "https://github.com/jerrygood24",
     "twitter": "https://twitter.com/iam_deepak24",
     "linkedin": "https://www.linkedin.com/in/itz-deepak",
-    "skills": ["C++", "Javascript", "Python"]
+    "skills": [
+      "C++",
+      "Javascript",
+      "Python"
+    ]
   },
   {
     "name": "Shreyansh Khaitan",
@@ -468,7 +712,11 @@
     "github": "https://github.com/shrey141102",
     "twitter": "https://twitter.com/__shrey__14",
     "linkedin": "https://www.linkedin.com/in/shreyansh-khaitan",
-    "skills": ["Java", "Python","AI/ML"]
+    "skills": [
+      "Java",
+      "Python",
+      "AI/ML"
+    ]
   },
   {
     "name": "Deren Losel",
@@ -476,7 +724,11 @@
     "github": "https://github.com/DerenLosel",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/DerenLosel",
-    "skills": ["Python", "React", "MongoDB"]
+    "skills": [
+      "Python",
+      "React",
+      "MongoDB"
+    ]
   },
   {
     "name": "Piyush",
@@ -484,7 +736,9 @@
     "github": "https://github.com/zirea3l",
     "twitter": "https://twitter.com/R1ann0n",
     "linkedin": "https://www.linkedin.com/in/piyush-sharma-zirea3l",
-    "skills": ["WebDev"]
+    "skills": [
+      "WebDev"
+    ]
   },
   {
     "name": "Sammie",
@@ -492,7 +746,10 @@
     "github": "https:/github.com/1AmSammi3",
     "twitter": "https://x.com/1_Am_Sammie",
     "linkedin": "",
-    "skills": ["HTML/CSS/JS", "React"]
+    "skills": [
+      "HTML/CSS/JS",
+      "React"
+    ]
   },
   {
     "name": "Kirtesh Admute",
@@ -500,7 +757,11 @@
     "github": "https://github.com/iKirtesh",
     "twitter": "https://twitter.com/Akirtesh",
     "linkedin": "https://www.linkedin.com/in/iKirtesh",
-    "skills": ["Java", "HTML/CSS/JS", "React"]
+    "skills": [
+      "Java",
+      "HTML/CSS/JS",
+      "React"
+    ]
   },
   {
     "name": "Rushikesh Shelar",
@@ -508,7 +769,11 @@
     "github": "https://github.com/RushikeshShelar",
     "twitter": "https://twitter.com/Rushishelar2468",
     "linkedin": "https://www.linkedin.com/in/rushikeshshelar",
-    "skills": ["React", "ExpressJS", "MongoDB"]
+    "skills": [
+      "React",
+      "ExpressJS",
+      "MongoDB"
+    ]
   },
   {
     "name": "Anurag Srivastav",
@@ -516,7 +781,11 @@
     "github": "https://github.com/anurag-327",
     "twitter": "https://twitter.com/itsAnurag_sri",
     "linkedin": "https://www.linkedin.com/in/anuragsr327",
-    "skills": ["NextJS", "C++", "ExpressJS"]
+    "skills": [
+      "NextJS",
+      "C++",
+      "ExpressJS"
+    ]
   },
   {
     "name": "Ashish Khare",
@@ -524,7 +793,11 @@
     "github": "https://github.com/ashishk1331",
     "twitter": "https://twitter.com/AshishK1331",
     "linkedin": "https://www.linkedin.com/in/ashishk1331",
-    "skills": ["HTML", "Javascript", "Python"]
+    "skills": [
+      "HTML",
+      "Javascript",
+      "Python"
+    ]
   },
   {
     "name": "Khushi Shroff",
@@ -532,7 +805,11 @@
     "github": "https://github.com/Ks103",
     "twitter": "https://twitter.com/khushishroff2",
     "linkedin": "https://www.linkedin.com/in/khushi-shroff-70b049211",
-    "skills": ["HTML/CSS/JS", "UI/UX", "React"]
+    "skills": [
+      "HTML/CSS/JS",
+      "UI/UX",
+      "React"
+    ]
   },
   {
     "name": "Rudy",
@@ -540,7 +817,11 @@
     "github": "https://github.com/rudy3333",
     "twitter": "https://x.com/_rudy3_",
     "linkedin": "https://discordapp.com/users/1042539859245547550",
-    "skills": ["Python", "SQL", "PHP"]
+    "skills": [
+      "Python",
+      "SQL",
+      "PHP"
+    ]
   },
   {
     "name": "Michael Ortiz",
@@ -548,7 +829,11 @@
     "github": "https://github.com/MichaelDeMattos",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/michael-ortiz-57690a17a",
-    "skills": ["NodeJS", "Python", "HTML/CSS"]
+    "skills": [
+      "NodeJS",
+      "Python",
+      "HTML/CSS"
+    ]
   },
   {
     "name": "Emmanuella Okafor",
@@ -556,7 +841,11 @@
     "github": "https://github.com/nuelladev",
     "twitter": "https://twitter.com/emmanuellaoka11",
     "linkedin": "https://www.linkedin.com/in/emmanuella-o",
-    "skills": ["React", "MySQL", "HTML/CSS"]
+    "skills": [
+      "React",
+      "MySQL",
+      "HTML/CSS"
+    ]
   },
   {
     "name": "Mehmet Salih Bozkir",
@@ -564,7 +853,11 @@
     "github": "https://github.com/MehmetBozkir",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/mehmet-salih-bozk%C4%B1r",
-    "skills": ["HTML/CSS/JS", "Typescript", "React"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Typescript",
+      "React"
+    ]
   },
   {
     "name": "Reayz",
@@ -572,7 +865,11 @@
     "github": "https://github.com/Reayz",
     "twitter": "https://twitter.com/Reayz77",
     "linkedin": "https://www.linkedin.com/in/Reayz",
-    "skills": ["ASP.NET", "Javascript", "MS SQL"]
+    "skills": [
+      "ASP.NET",
+      "Javascript",
+      "MS SQL"
+    ]
   },
   {
     "name": "Chirag Aggarwal",
@@ -580,7 +877,11 @@
     "github": "https://github.com/ChiragAgg5k",
     "twitter": "https://twitter.com/ChiragAgg5k",
     "linkedin": "https://www.linkedin.com/in/chiragagg5k",
-    "skills": ["Python", "React", "MongoDB"]
+    "skills": [
+      "Python",
+      "React",
+      "MongoDB"
+    ]
   },
   {
     "name": "Srinanda Das",
@@ -588,7 +889,11 @@
     "github": "https://github.com/XNOR8",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/srinanda-das-36813524b",
-    "skills": ["HTML/CSS/JS", "Java", "MySQL"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Java",
+      "MySQL"
+    ]
   },
   {
     "name": "Atharvan Pohnerkar",
@@ -596,7 +901,11 @@
     "github": "https://github.com/Atharvan2004",
     "twitter": "https://twitter.com/AtharvanPo53043",
     "linkedin": "https://www.linkedin.com/in/atharvan-pohnerkar-631740256",
-    "skills": ["MongoDB", "ExpressJS", "CP"]
+    "skills": [
+      "MongoDB",
+      "ExpressJS",
+      "CP"
+    ]
   },
   {
     "name": "Shiva Prasad",
@@ -604,7 +913,12 @@
     "github": "https://github.com/shiv19",
     "twitter": "https://x.com/multishiv19",
     "linkedin": "https://linkedin.com/in/multishiv19",
-    "skills": ["Javascript","Kotlin", "VueJS", "AI/ML"]
+    "skills": [
+      "Javascript",
+      "Kotlin",
+      "VueJS",
+      "AI/ML"
+    ]
   },
   {
     "name": "Yash Kumar Shrivas",
@@ -612,7 +926,11 @@
     "github": "https://github.com/YashkShrivas4491",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126",
-    "skills": ["C++", "React", "Javascript"]
+    "skills": [
+      "C++",
+      "React",
+      "Javascript"
+    ]
   },
   {
     "name": "Gyan Pratap Singh",
@@ -620,7 +938,11 @@
     "github": "https://github.com/Gyanthakur",
     "twitter": "https://twitter.com/gps_96169",
     "linkedin": "https://www.linkedin.com/in/gyan-pratap-singh-275785236",
-    "skills": ["Javascript", "React", "C++"]
+    "skills": [
+      "Javascript",
+      "React",
+      "C++"
+    ]
   },
   {
     "name": "Utkarsh Patil",
@@ -628,7 +950,11 @@
     "github": "https://github.com/utkarsh-009",
     "twitter": "https://twitter.com/tw_utkarsh",
     "linkedin": "https://www.linkedin.com/in/utkarsh-patil-0b62a9202",
-    "skills": ["Python", "Javascript", "Dart"]
+    "skills": [
+      "Python",
+      "Javascript",
+      "Dart"
+    ]
   },
   {
     "name": "Ahasas Jain",
@@ -636,7 +962,11 @@
     "github": "https://github.com/Ahasasjain",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/ahasas-jain-b9b88428b",
-    "skills": ["React", "Java", "ExpressJS"]
+    "skills": [
+      "React",
+      "Java",
+      "ExpressJS"
+    ]
   },
   {
     "name": "Alit Indrawan",
@@ -644,7 +974,11 @@
     "github": "https://github.com/Alitindrawan24",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/alitindrawan24",
-    "skills": ["PHP", "Javascript", "Go"]
+    "skills": [
+      "PHP",
+      "Javascript",
+      "Go"
+    ]
   },
   {
     "name": "Ralph Rosael",
@@ -652,7 +986,11 @@
     "github": "https://github.com/coder-ralph",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/ralphrosael",
-    "skills": ["Python", "Javascript", "Arduino"]
+    "skills": [
+      "Python",
+      "Javascript",
+      "Arduino"
+    ]
   },
   {
     "name": "Loensh",
@@ -660,7 +998,11 @@
     "github": "https://github.com/Loensh",
     "twitter": "https://discordapp.com/users/690344196506517544",
     "linkedin": "",
-    "skills": ["Javascript", "C++", "Go"]
+    "skills": [
+      "Javascript",
+      "C++",
+      "Go"
+    ]
   },
   {
     "name": "Sandeep Kumar Sharma",
@@ -668,7 +1010,11 @@
     "github": "https://github.com/amrahs02",
     "twitter": "https://twitter.com/amrahs02",
     "linkedin": "https://www.linkedin.com/in/sandeepsharma2183",
-    "skills": ["HTML/CSS/JS", "React", "TailwindCSS"]
+    "skills": [
+      "HTML/CSS/JS",
+      "React",
+      "TailwindCSS"
+    ]
   },
   {
     "name": "Shubham Kamboj",
@@ -676,7 +1022,11 @@
     "github": "https://github.com/Shu4bham",
     "twitter": "https://twitter.com/Shu4bham",
     "linkedin": "https://www.linkedin.com/in/Shu4bham",
-    "skills": ["HTML/CSS/JS", "Python", "React"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Python",
+      "React"
+    ]
   },
   {
     "name": "Balaji Prakasam",
@@ -684,7 +1034,11 @@
     "github": "https://github.com/balajithegr8",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/balaji-prakasam-7a77b822b",
-    "skills": ["C++", "HTML/CSS/JS", "AI/ML"]
+    "skills": [
+      "C++",
+      "HTML/CSS/JS",
+      "AI/ML"
+    ]
   },
   {
     "name": "Kakkerla Manideep",
@@ -692,7 +1046,11 @@
     "github": "https://github.com/Manideep711",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/manideep-kakkerla-529692265",
-    "skills": ["HTML/CSS/JS", "Python", "Java"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Python",
+      "Java"
+    ]
   },
   {
     "name": "Abrar Hussain",
@@ -700,7 +1058,11 @@
     "github": "https://github.com/Abrarlala",
     "twitter": "https://twitter.com/ABRAR706774",
     "linkedin": "https://www.linkedin.com/in/mohammad-abrar-610ba124b",
-    "skills": ["Javascript", "React", "Java"]
+    "skills": [
+      "Javascript",
+      "React",
+      "Java"
+    ]
   },
   {
     "name": "Kanchan Rai",
@@ -708,7 +1070,11 @@
     "github": "https://github.com/kanchanraiii/",
     "twitter": "https://twitter.com/kanchanraiii",
     "linkedin": "https://www.linkedin.com/in/kanchan-rai-90271a24a",
-    "skills": ["HTML/CSS", "Python", "C++"]
+    "skills": [
+      "HTML/CSS",
+      "Python",
+      "C++"
+    ]
   },
   {
     "name": "Rohit Roy",
@@ -716,7 +1082,11 @@
     "github": "https://github.com/rohitroy-github",
     "twitter": "https://twitter.com/rohitroy_R",
     "linkedin": "https://www.linkedin.com/in/roy-rohit",
-    "skills": ["MERN", "Solidity", "Blockchain"]
+    "skills": [
+      "MERN",
+      "Solidity",
+      "Blockchain"
+    ]
   },
   {
     "name": "Sravan Kumar",
@@ -724,7 +1094,11 @@
     "github": "https://github.com/sravangorati2001",
     "twitter": "https://twitter.com/Sravanthrony",
     "linkedin": "https://www.linkedin.com/in/sravangorati2001",
-    "skills": ["NodeJS", "React", "MongoDB"]
+    "skills": [
+      "NodeJS",
+      "React",
+      "MongoDB"
+    ]
   },
   {
     "name": "Samuel Peters",
@@ -732,7 +1106,11 @@
     "github": "https://github.com/petsamuel",
     "twitter": "https://x.com/bieefilled",
     "linkedin": "https://linkedin.com/in/bieefilled",
-    "skills": ["React", "Typescript", "Python"]
+    "skills": [
+      "React",
+      "Typescript",
+      "Python"
+    ]
   },
   {
     "name": "Ahnaf Hasan Shifat",
@@ -740,7 +1118,11 @@
     "github": "https://github.com/ah-naf",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/ahnafhasan144",
-    "skills": ["React", "Typescript", "PostgreSQL"]
+    "skills": [
+      "React",
+      "Typescript",
+      "PostgreSQL"
+    ]
   },
   {
     "name": "Prashant Jagtap",
@@ -748,7 +1130,9 @@
     "github": "https://github.com/prashantjagtap2909",
     "twitter": "",
     "linkedin": "",
-    "skills": ["C++"]
+    "skills": [
+      "C++"
+    ]
   },
   {
     "name": "Atul Gawade",
@@ -756,7 +1140,11 @@
     "github": "https://github.com/gawadeatul",
     "twitter": "https://twitter.com/gawadeatul27",
     "linkedin": "https://www.linkedin.com/in/atulgawade",
-    "skills": ["Java", "C#", "PHP"]
+    "skills": [
+      "Java",
+      "C#",
+      "PHP"
+    ]
   },
   {
     "name": "Nong Snail",
@@ -764,7 +1152,10 @@
     "github": "https://github.com/NongSnail",
     "twitter": "https://twitter.com/kuroi_01509",
     "linkedin": "https://www.linkedin.com/in/narisara01509",
-    "skills": ["Python", "SQL"]
+    "skills": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "name": "Ujjwal Gupta",
@@ -772,7 +1163,10 @@
     "github": "https://github.com/heyujjwal",
     "twitter": "https://twitter.com/UJJWALG55043670",
     "linkedin": "https://www.linkedin.com/in/ujjwal-gupta-a595811b9",
-    "skills": ["NextJS", "C++"]
+    "skills": [
+      "NextJS",
+      "C++"
+    ]
   },
   {
     "name": "Astha Tripathi",
@@ -780,7 +1174,10 @@
     "github": "https://github.com/Astha369",
     "twitter": "https://twitter.com/t_astha027",
     "linkedin": "https://www.linkedin.com/in/asthatripathi",
-    "skills": ["C++", "Flutter"]
+    "skills": [
+      "C++",
+      "Flutter"
+    ]
   },
   {
     "name": "Shashwat Bajpai",
@@ -788,7 +1185,11 @@
     "github": "https://github.com/Bajpai25",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/shashwat-bajpai-73a916234",
-    "skills": ["HTML", "CSS", "Javascript"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
   },
   {
     "name": "Piyush Kumar Das",
@@ -796,7 +1197,11 @@
     "github": "https://github.com/piyushkdas0611",
     "twitter": "https://twitter.com/Piyush_k_das",
     "linkedin": "https://linkedin.com/in/piyush-k-das",
-    "skills": ["HTML/CSS/JS", "React", "ExpressJS"]
+    "skills": [
+      "HTML/CSS/JS",
+      "React",
+      "ExpressJS"
+    ]
   },
   {
     "name": "Akshat Mishra",
@@ -804,7 +1209,11 @@
     "github": "https://github.com/akshatmishra25",
     "twitter": "https://twitter.com/AkshatMx10",
     "linkedin": "https://www.linkedin.com/in/akshat-mishra-702694226",
-    "skills": ["Java", "Python", "React"]
+    "skills": [
+      "Java",
+      "Python",
+      "React"
+    ]
   },
   {
     "name": " 「 」Data ",
@@ -812,7 +1221,11 @@
     "github": "https://github.com/DataGamingYT",
     "twitter": "",
     "linkedin": "",
-    "skills": ["HTML/CSS/JS", "Java", "Python"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Java",
+      "Python"
+    ]
   },
   {
     "name": "SyntaxSmiler03",
@@ -820,7 +1233,12 @@
     "github": "https://github.com/SyntaxSmiler03",
     "twitter": "",
     "linkedin": "",
-    "skills": ["HTML/CSS/JS", "Java", "C/C++", "Python"]
+    "skills": [
+      "HTML/CSS/JS",
+      "Java",
+      "C/C++",
+      "Python"
+    ]
   },
   {
     "name": "Srikar",
@@ -828,7 +1246,11 @@
     "github": "https://github.com/Srikar-C",
     "twitter": "",
     "linkedin": "",
-    "skills": ["MERN", "Python", "Django"]
+    "skills": [
+      "MERN",
+      "Python",
+      "Django"
+    ]
   },
   {
     "name": "Harshal Kahar",
@@ -836,7 +1258,11 @@
     "github": "https://github.com/harshal255",
     "twitter": "https://harshalkahar.vercel.app",
     "linkedin": "https://www.linkedin.com/in/harshal-kahar-4115a321b",
-    "skills": ["NodeJS", "NextJS", "TailwindCSS"]
+    "skills": [
+      "NodeJS",
+      "NextJS",
+      "TailwindCSS"
+    ]
   },
   {
     "name": "Dibya Jyoti Dutta",
@@ -844,7 +1270,11 @@
     "github": "https://github.com/Dibya112",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/dibya-jyoti-dutta-87378a240",
-    "skills": ["ExpressJS", "Javascript", "C++"]
+    "skills": [
+      "ExpressJS",
+      "Javascript",
+      "C++"
+    ]
   },
   {
     "name": "Shrimad Bhagwat",
@@ -852,7 +1282,10 @@
     "github": "https://github.com/Shrimad-Bhagwat",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/shrimad-bhagwat-a7a879201",
-    "skills": ["C++", "Flutter"]
+    "skills": [
+      "C++",
+      "Flutter"
+    ]
   },
   {
     "name": "Anmol Anand",
@@ -860,7 +1293,11 @@
     "github": "https://github.com/anmol420",
     "twitter": "https://twitter.com/anmol___420",
     "linkedin": "https://www.linkedin.com/in/anmol420",
-    "skills": ["Java", "Javascript", "Flutter"]
+    "skills": [
+      "Java",
+      "Javascript",
+      "Flutter"
+    ]
   },
   {
     "name": "Muhamad Dian Rahendra",
@@ -868,7 +1305,11 @@
     "github": "https://github.com/Muanra217",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/muanra217",
-    "skills": ["JavaScript", "Mendix", "React"]
+    "skills": [
+      "JavaScript",
+      "Mendix",
+      "React"
+    ]
   },
   {
     "name": "Vivek Gurudutt",
@@ -876,7 +1317,11 @@
     "github": "https://github.com/VivekGuruduttK28",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/vivek-gurudutt-k-466936267",
-    "skills": ["Java", "Python", "C++"]
+    "skills": [
+      "Java",
+      "Python",
+      "C++"
+    ]
   },
   {
     "name": "Guilherme Berson",
@@ -884,7 +1329,10 @@
     "github": "https://github.com/KhanSado",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/guilhermeberson",
-    "skills": ["Java", "Kotlin"]
+    "skills": [
+      "Java",
+      "Kotlin"
+    ]
   },
   {
     "name": "Yash Sinha",
@@ -892,7 +1340,11 @@
     "github": "https://github.com/yash19sinha",
     "twitter": "https://twitter.com/SinhaYash62471",
     "linkedin": "https://www.linkedin.com/in/yash-sinha-09989621a",
-    "skills": ["NextJS", "TailwindCSS", "Javascript"]
+    "skills": [
+      "NextJS",
+      "TailwindCSS",
+      "Javascript"
+    ]
   },
   {
     "name": "Prasanna Donga",
@@ -900,7 +1352,11 @@
     "github": "https://github.com/prasanna1225",
     "twitter": "",
     "linkedin": "",
-    "skills": ["HTML/CSS/JS", "React", "NodeJS"]
+    "skills": [
+      "HTML/CSS/JS",
+      "React",
+      "NodeJS"
+    ]
   },
   {
     "name": "Aziz Arif Rizaldi",
@@ -908,7 +1364,10 @@
     "github": "https://github.com/azizarizaldi",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/azizarizaldi",
-    "skills": ["WebDev", "AppDev"]
+    "skills": [
+      "WebDev",
+      "AppDev"
+    ]
   },
   {
     "name": "YouFoundAlpha",
@@ -916,7 +1375,11 @@
     "github": "https://github.com/YouFoundAlpha",
     "twitter": "",
     "linkedin": "",
-    "skills": ["NodeJS", "Javascript", "HTML"]
+    "skills": [
+      "NodeJS",
+      "Javascript",
+      "HTML"
+    ]
   },
   {
     "name": "Ayush Anshu",
@@ -924,7 +1387,11 @@
     "github": "https://github.com/ayush24k",
     "twitter": "https://twitter.com/ayushanshuu",
     "linkedin": "https://linkedin.com/in/ayushanshu",
-    "skills": ["MERN","C++", "AI/ML"]
+    "skills": [
+      "MERN",
+      "C++",
+      "AI/ML"
+    ]
   },
   {
     "name": "Farhan Muzaffar",
@@ -932,7 +1399,11 @@
     "github": "https://github.com/Mdfarhan9304",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/farhan-muzaffar-039994218",
-    "skills": ["React", "Javascript", "HTML"]
+    "skills": [
+      "React",
+      "Javascript",
+      "HTML"
+    ]
   },
   {
     "name": "Guilherme Orcezi",
@@ -940,7 +1411,11 @@
     "github": "https://github.com/guilhermeorcezi",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/guilhermeorcez",
-    "skills": ["React", "React Native", "NodeJS"]
+    "skills": [
+      "React",
+      "React Native",
+      "NodeJS"
+    ]
   },
   {
     "name": "Tanakorn",
@@ -948,7 +1423,11 @@
     "github": "https://github.com/Tanakornl3oom",
     "twitter": "",
     "linkedin": "",
-    "skills": ["NodeJS", "Javascript", "HTML"]
+    "skills": [
+      "NodeJS",
+      "Javascript",
+      "HTML"
+    ]
   },
   {
     "name": "Bilal Mirza",
@@ -956,7 +1435,11 @@
     "github": "https://github.com/bilalmirza74",
     "twitter": "https://webdevfreelancer.me",
     "linkedin": "",
-    "skills": ["MERN", "DevOps", "Python"]
+    "skills": [
+      "MERN",
+      "DevOps",
+      "Python"
+    ]
   },
   {
     "name": "Irfan Habeeeb ",
@@ -964,7 +1447,9 @@
     "github": "https://github.com/habeebputhiyakath",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/irfanhabeeb1",
-    "skills": ["Flutter"]
+    "skills": [
+      "Flutter"
+    ]
   },
   {
     "name": "Alekhya Dharam",
@@ -972,7 +1457,11 @@
     "github": "https://github.com/Alekhya-Dharam",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/alekhya-dharam-62873322b",
-    "skills": ["Java", "NodeJS", "ExpressJS"]
+    "skills": [
+      "Java",
+      "NodeJS",
+      "ExpressJS"
+    ]
   },
   {
     "name": "K Koyal",
@@ -980,7 +1469,11 @@
     "github": "https://github.com/kondapalli19",
     "twitter": "",
     "linkedin": "",
-    "skills": ["MERN", "Java", "Python"]
+    "skills": [
+      "MERN",
+      "Java",
+      "Python"
+    ]
   },
   {
     "name": "Uuphoria2",
@@ -988,7 +1481,10 @@
     "github": "https://github.com/uuphoria2",
     "twitter": "",
     "linkedin": "",
-    "skills": ["NodeJS", "PostgreSQL"]
+    "skills": [
+      "NodeJS",
+      "PostgreSQL"
+    ]
   },
   {
     "name": "Emmanuel P. Barrameda",
@@ -996,7 +1492,14 @@
     "github": "https://github.com/emmanpbarrameda",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/emmanpbarrameda",
-    "skills": ["Java", "C#", "VB.Net", "HTML/CSS/Javascript", "PHP", "Laravel"]
+    "skills": [
+      "Java",
+      "C#",
+      "VB.Net",
+      "HTML/CSS/Javascript",
+      "PHP",
+      "Laravel"
+    ]
   },
   {
     "name": "Aditya Raj",
@@ -1004,7 +1507,12 @@
     "github": "https://github.com/aditya8Raj",
     "twitter": "https://x.com/nerdinbiz",
     "linkedin": "",
-    "skills": ["HTML/CSS/JS", "ReactJS", "NextJS", "Python"]
+    "skills": [
+      "HTML/CSS/JS",
+      "ReactJS",
+      "NextJS",
+      "Python"
+    ]
   },
   {
     "name": "Asimanye Dudumayo",
@@ -1012,7 +1520,12 @@
     "github": "https://github.com/adudumayo",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/asimanye-dudumayo-879a3a16a",
-    "skills": ["Java", "Python", "ReactJS", "HTML/CSS/JS"]
+    "skills": [
+      "Java",
+      "Python",
+      "ReactJS",
+      "HTML/CSS/JS"
+    ]
   },
   {
     "name": "Ashutosh Kumar",
@@ -1020,7 +1533,11 @@
     "github": "https://github.com/codeaashu",
     "twitter": "https://twitter.com/warrior_aashuu",
     "linkedin": "https://www.linkedin.com/in/ashutoshkumaraashu/",
-    "skills": ["WebDev", "WebDesign", "UI/UX"]
+    "skills": [
+      "WebDev",
+      "WebDesign",
+      "UI/UX"
+    ]
   },
   {
     "name": "Hailey Martin",
@@ -1028,7 +1545,13 @@
     "github": "https://github.com/Hailo7ts",
     "twitter": "https://x.com/Hailo7ts",
     "linkedin": "https://www.linkedin.com/in/hailey-martin-co/",
-    "skills": ["WebDev", "ReactJS", "HTML/CSS/JS", "Java", "C"]
+    "skills": [
+      "WebDev",
+      "ReactJS",
+      "HTML/CSS/JS",
+      "Java",
+      "C"
+    ]
   },
   {
     "name": "Gaurav Giri",
@@ -1036,7 +1559,15 @@
     "github": "https://github.com/gaurovgiri",
     "twitter": "https://x.com/gaurovgiri",
     "linkedin": "https://www.linkedin.com/in/gaurovgiri/",
-    "skills": ["Python", "Dart", "HTML/CSS/JS", "C/C++", "Flutter", "AI/ML", "MERN"]
+    "skills": [
+      "Python",
+      "Dart",
+      "HTML/CSS/JS",
+      "C/C++",
+      "Flutter",
+      "AI/ML",
+      "MERN"
+    ]
   },
   {
     "name": "Aayush Shrestha",
@@ -1044,7 +1575,13 @@
     "github": "https://github.com/aayush105",
     "twitter": "https://x.com/aayushrestha5",
     "linkedin": "https://www.linkedin.com/in/aayushrestha/",
-    "skills": ["ReactJS", "NextJS", "HTML/CSS/JS", "C/C++", "MERN"]
+    "skills": [
+      "ReactJS",
+      "NextJS",
+      "HTML/CSS/JS",
+      "C/C++",
+      "MERN"
+    ]
   },
   {
     "name": "Khail Vaun",
@@ -1052,7 +1589,11 @@
     "github": "https://github.com/yolk23",
     "twitter": "",
     "linkedin": "",
-    "skills": ["ReactJS", "NextJS", "HTML/CSS/JS"]
+    "skills": [
+      "ReactJS",
+      "NextJS",
+      "HTML/CSS/JS"
+    ]
   },
   {
     "name": "Nishant Movaliya",
@@ -1060,7 +1601,15 @@
     "github": "https://github.com/nishantmovaliya",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/nishant-movaliya-6b8813169/",
-    "skills": ["Node.js", "Typescript", "PostgreSQL", "NestJS", "Socket.io", "Redis", "AWS"]
+    "skills": [
+      "Node.js",
+      "Typescript",
+      "PostgreSQL",
+      "NestJS",
+      "Socket.io",
+      "Redis",
+      "AWS"
+    ]
   },
   {
     "name": "Pratima Sapkota",
@@ -1068,7 +1617,14 @@
     "github": "https://github.com/pratimaasapkota",
     "twitter": "",
     "linkedin": "https://linkedin.com/in/pratima-sapkota-55836727b",
-    "skills": ["Javascript", "MEAN","Nextjs" ,"React", "Python", "AI/ML"]
+    "skills": [
+      "Javascript",
+      "MEAN",
+      "Nextjs",
+      "React",
+      "Python",
+      "AI/ML"
+    ]
   },
   {
     "name": "Andrew Dmitriev",
@@ -1076,7 +1632,19 @@
     "github": "https://github.com/theevilgrinch",
     "twitter": "",
     "linkedin": "",
-    "skills": ["Javascript", "HTML","CSS" ,"React", "SASS", "AI tools", "EJS", "PUG", "Figma", "Linux", "NodeJS"]
+    "skills": [
+      "Javascript",
+      "HTML",
+      "CSS",
+      "React",
+      "SASS",
+      "AI tools",
+      "EJS",
+      "PUG",
+      "Figma",
+      "Linux",
+      "NodeJS"
+    ]
   },
   {
     "name": "Zoom",
@@ -1084,6 +1652,32 @@
     "github": "https://github.com/TheOldZoom",
     "twitter": "https://x.com/TheOldZoom",
     "linkedin": "",
-    "skills": ["Node.js", "TypeScript", "MySQL", "Next.js", "NestJS", "Express.js"]
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "MySQL",
+      "Next.js",
+      "NestJS",
+      "Express.js"
+    ]
+  },
+  {
+    "name": "GOBIND SINGH",
+    "image": "https://avatars.githubusercontent.com/u/129926018?v=4",
+    "github": "https://github.com/G4Git",
+    "twitter": "https://x.com/X4Git",
+    "linkedin": "",
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "MySQL",
+      "Next.js",
+      "MongoDb",
+      "Expo",
+      "React Native",
+      "Python",
+      "React",
+      "Express.js"
+    ]
   }
 ]

@@ -1085,5 +1085,13 @@
     "twitter": "https://x.com/TheOldZoom",
     "linkedin": "",
     "skills": ["Node.js", "TypeScript", "MySQL", "Next.js", "NestJS", "Express.js"]
+  },
+  {
+    "name": "Gobind Singh",
+    "image": "https://avatars.githubusercontent.com/u/129926018?v=4",
+    "github": "https://github.com/G4Git",
+    "twitter": "https://x.com/X4Git",
+    "linkedin": "",
+    "skills": ["Node.js", "TypeScript", "MySQL", "Next.js", "Expo", "Express.js","JavaScript"]
   }
 ]

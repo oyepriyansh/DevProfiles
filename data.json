@@ -1,4 +1,11 @@
 [
+        {
+    "name": "Abdullah Butt",
+    "image": "/",
+    "github": "https://github.com/Abdullah001butt",
+    "linkedin": "https://www.linkedin.com/in/abdullah-butt-280675352/",
+    "skills": ["React", "Typescript", "C#", ".NET", "Azure"]
+  },
       {
     "name": "Aniket Sonawat",
     "image": "https://avatars.githubusercontent.com/u/158815644?v=4",
